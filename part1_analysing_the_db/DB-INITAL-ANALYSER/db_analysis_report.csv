@@ -1,0 +1,53 @@
+db_name,file_name,status,summary,error,file_size_bytes
+numoni_customer,brand_wallet.json,VALID,JSON List (Empty list),,2
+numoni_customer,customerDetails.json,VALID,"JSON List (8660 records), first record keys: ['_id', 'name', 'email', 'userId', 'phoneNumber', 'qrCode', 'createdDt', 'isEmailVerified']",,5731188
+numoni_customer,customerError.json,VALID,"JSON List (2462 records), first record keys: ['_id', 'customerId', 'errorTypeEnum', 'errorMessage', 'retries', 'maxRetries', 'resolved', 'comment']",,1148155
+numoni_customer,customer_load_money.json,VALID,"JSON List (13715 records), first record keys: ['_id', 'userId', 'customerId', 'transactionAmount', 'fee', 'bonusAmount', 'totalAmount', 'status']",,22840849
+numoni_customer,customer_points_ledger.json,VALID,JSON List (Empty list),,2
+numoni_customer,customer_share_money.json,VALID,"JSON List (88 records), first record keys: ['_id', 'sentUserId', 'sentCustomerId', 'receiveUserId', 'receiveCustomerId', 'transactionAmount', 'phoneNumber', 'paymentReferenceToken']",,43182
+numoni_customer,customer_sharepoint_requests.json,VALID,"JSON List (24 records), first record keys: ['_id', 'userName', 'referCode', 'referId', 'refTransactionId', 'smsText', 'phoneNumber', 'createdAt']",,15232
+numoni_customer,customer_wallet_ledger.json,VALID,"JSON List (35453 records), first record keys: ['_id', 'userId', 'customerId', 'type', 'transactionNo', 'numoni_transaction_ref_id', 'transactionId', 'trn_type']",,37295949
+numoni_customer,customerlocation.json,VALID,"JSON List (40 records), first record keys: ['_id', 'customerId', 'homeNumber', 'latitude', 'longitude', 'street', 'address', 'city']",,21277
+numoni_customer,favourite_deal.json,VALID,"JSON List (83 records), first record keys: ['_id', 'dealId', 'customerId', 'category', 'createdDt', '_class']",,27464
+numoni_customer,initiative_orders.json,VALID,"JSON List (10108 records), first record keys: ['_id', 'userId', 'paymentReferenceToken', 'dealId', 'merchantUserId', 'merchantId', 'customerUserId', 'customerId']",,9560456
+numoni_customer,invoice.json,VALID,JSON List (Empty list),,2
+numoni_customer,merchant_payment_details.json,VALID,JSON List (Empty list),,2
+numoni_customer,order_seqNo.json,VALID,"JSON List (1 records), first record keys: ['_id', 'seqNo', 'prefix', 'updatedDt', '_class']",,251
+numoni_customer,pay_on_us_notifications.json,VALID,"JSON List (10887 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']",,16209581
+numoni_customer,payment_otp_verification.json,VALID,"JSON List (289 records), first record keys: ['_id', 'otp', 'phoneNumber', 'expiryTime', 'token', 'status', 'type', 'createdDt']",,167673
+numoni_customer,shedLock.json,VALID,"JSON List (1 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']",,254
+numoni_customer,sponsored_deals.json,VALID,"JSON List (4 records), first record keys: ['_id', 'heading', 'description', 'dealId', 'backgroundImage', 'isActive', 'createdAt', 'updatedAt']",,1824
+numoni_customer,tokens.json,VALID,"JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']",,1180
+numoni_customer,top_up_status.json,VALID,"JSON List (8102 records), first record keys: ['_id', 'onusReferenceId', 'numoni_ref_id', 'status', 'createdDt', '_class']",,2788908
+numoni_customer,transaction_history.json,VALID,"JSON List (35372 records), first record keys: ['_id', 'customerId', 'customerUserId', 'sourceTransactionId', 'transactionReferenceId', 'transactionName', 'transactionCategory', 'walletType']",,57059424
+numoni_customer,transaction_session.json,VALID,"JSON List (10124 records), first record keys: ['_id', 'initiativeRefId', 'verificationId', 'invoiceNo', 'transactionId', 'type', 'sessionId', 'createdDt']",,5495183
+numoni_customer,wallet.json,VALID,"JSON List (8660 records), first record keys: ['_id', 'amount', 'amountOnHold', 'version', 'updatedDt', 'createdDt', '_class']",,2620377
+numoni_customer,wallet_adjust_management.json,VALID,"JSON List (243 records), first record keys: ['_id', 'walletId', 'userId', 'customerId', 'actualAmount', 'adjustBefore', 'adjustAfter', 'transactionAmount']",,161514
+numoni_merchant,adjustmentpointandbalance.json,VALID,"JSON List (4 records), first record keys: ['_id', 'walletId', 'balance', 'reason', 'adminId', 'walletType', '_class']",,1259
+numoni_merchant,bankInformation.json,VALID,"JSON List (112 records), first record keys: ['_id', 'merchantId', 'bankname', 'bankcode', 'accountNo', 'accountHolderName', 'bankTransferCode', 'primary']",,65106
+numoni_merchant,businessimage.json,VALID,"JSON List (385 records), first record keys: ['_id', 'userId', 'image', 'createdDt', 'updatedDt', '_class']",,141397
+numoni_merchant,category.json,VALID,"JSON List (14 records), first record keys: ['_id', 'name', 'tip_amount', '_class']",,2638
+numoni_merchant,deal_status.json,VALID,"JSON List (1 records), first record keys: ['_id', 'dealId', 'status', 'updatedBy', 'updatedAt', '_class']",,313
+numoni_merchant,dealimage.json,VALID,"JSON List (19 records), first record keys: ['_id', 'dealId', 'imagePath', '_class']",,4506
+numoni_merchant,deals.json,VALID,"JSON List (9 records), first record keys: ['_id', 'userId', 'name', 'description', 'dealType', 'availableStock', 'initialPrice', 'discount']",,8144
+numoni_merchant,file_mapping.json,VALID,"JSON List (590 records), first record keys: ['_id', 'tempUrl', 'objectKey', 'presignedUrl', 'originalFileName', 'contentType', 'fileSize', 'uploadedBy']",,1244772
+numoni_merchant,merchantDetails.json,VALID,"JSON List (116 records), first record keys: ['_id', 'email', 'businessImagePath', 'businessPhoneNo', 'businessName', 'brandName', 'registeredBusiness', 'category']",,153640
+numoni_merchant,merchant_payout.json,VALID,"JSON List (6 records), first record keys: ['_id', 'merchantId', 'payoutDate', 'status', 'createdAt', 'updatedAt']",,2049
+numoni_merchant,merchant_payout_initiatives.json,VALID,"JSON List (2 records), first record keys: ['_id', 'merchantId', 'merchantIdUserId', 'paymentReferenceToken', 'type', 'merchantTypes', 'beneficiaryBankCode', 'beneficiaryAccountNumber']",,1341
+numoni_merchant,merchant_reward_points_ledger.json,VALID,JSON List (Empty list),,2
+numoni_merchant,merchant_wallet_ledger.json,VALID,"JSON List (27565 records), first record keys: ['_id', 'merchantId', 'customerId', 'invoiceRefId', 'invoiceNo', 'type', 'numoni_transaction_ref_id', 'transactionNo']",,37676096
+numoni_merchant,merchantlocation.json,VALID,"JSON List (112 records), first record keys: ['_id', 'userId', 'storeNo', 'address', 'street', 'city', 'country', 'latitude']",,59491
+numoni_merchant,nigeria_regions.json,VALID,"JSON List (774 records), first record keys: ['_id', 'region', 'state', 'lga', '_class']",,168497
+numoni_merchant,notifications.json,VALID,"JSON List (47029 records), first record keys: ['_id', 'title', 'description', 'userId', 'usertype', 'read', 'createdDt', 'updatedDt']",,22841356
+numoni_merchant,pay_out_notification.json,VALID,"JSON List (6638 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']",,8814567
+numoni_merchant,payout_retry_records.json,VALID,"JSON List (7 records), first record keys: ['_id', 'merchantId', 'ledgerId', 'transactionId', 'retryCount', 'maxRetries', '_class']",,2285
+numoni_merchant,payout_scheduler_entry.json,VALID,"JSON List (4 records), first record keys: ['_id', 'merchantId', 'walletId', 'entryDate', 'scheduledPayoutDate', 'createdAt', '_class']",,1691
+numoni_merchant,payout_scheduler_process_entry.json,VALID,"JSON List (2 records), first record keys: ['_id', 'entryDate', 'createdAt', '_class']",,587
+numoni_merchant,pos.json,VALID,"JSON List (53 records), first record keys: ['_id', 'posId', 'posName', 'merchantId', 'bankName', 'accountNo', 'accountHolderName', 'bankCode']",,37067
+numoni_merchant,reviews.json,VALID,"JSON List (3362 records), first record keys: ['_id', 'merchantId', 'customerId', 'rating', 'comment', 'createdDt', 'updatedDt', '_class']",,1359602
+numoni_merchant,rewards.json,VALID,"JSON List (2 records), first record keys: ['_id', 'merchantId', 'rewardType', 'rules', 'rewardCap', 'rewardDistributed', 'distributionType', 'milestoneTarget']",,1632
+numoni_merchant,scheduler_locks.json,VALID,JSON List (Empty list),,2
+numoni_merchant,shedLock.json,VALID,"JSON List (2 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']",,482
+numoni_merchant,tokens.json,VALID,"JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']",,1180
+numoni_merchant,transaction_history.json,VALID,"JSON List (27566 records), first record keys: ['_id', 'sourceId', 'transactionId', 'transactionType', 'operationType', 'amount', 'description', 'status']",,50455794
+numoni_merchant,wallet.json,VALID,"JSON List (15 records), first record keys: ['_id', 'amount', 'createdDt', '_class']",,2750

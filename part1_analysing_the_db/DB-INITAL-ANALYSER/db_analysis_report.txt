@@ -1,0 +1,317 @@
+NUMONI DATABASE ANALYSIS REPORT
+====================================================================================================
+Generated on: 2026-02-12 15:06:58.147571
+====================================================================================================
+
+DB Name   : numoni_customer
+File Name : brand_wallet.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customerDetails.json
+Status    : VALID
+Summary   : JSON List (8660 records), first record keys: ['_id', 'name', 'email', 'userId', 'phoneNumber', 'qrCode', 'createdDt', 'isEmailVerified']
+File Size : 5731188 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customerError.json
+Status    : VALID
+Summary   : JSON List (2462 records), first record keys: ['_id', 'customerId', 'errorTypeEnum', 'errorMessage', 'retries', 'maxRetries', 'resolved', 'comment']
+File Size : 1148155 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customer_load_money.json
+Status    : VALID
+Summary   : JSON List (13715 records), first record keys: ['_id', 'userId', 'customerId', 'transactionAmount', 'fee', 'bonusAmount', 'totalAmount', 'status']
+File Size : 22840849 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customer_points_ledger.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customer_share_money.json
+Status    : VALID
+Summary   : JSON List (88 records), first record keys: ['_id', 'sentUserId', 'sentCustomerId', 'receiveUserId', 'receiveCustomerId', 'transactionAmount', 'phoneNumber', 'paymentReferenceToken']
+File Size : 43182 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customer_sharepoint_requests.json
+Status    : VALID
+Summary   : JSON List (24 records), first record keys: ['_id', 'userName', 'referCode', 'referId', 'refTransactionId', 'smsText', 'phoneNumber', 'createdAt']
+File Size : 15232 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customer_wallet_ledger.json
+Status    : VALID
+Summary   : JSON List (35453 records), first record keys: ['_id', 'userId', 'customerId', 'type', 'transactionNo', 'numoni_transaction_ref_id', 'transactionId', 'trn_type']
+File Size : 37295949 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : customerlocation.json
+Status    : VALID
+Summary   : JSON List (40 records), first record keys: ['_id', 'customerId', 'homeNumber', 'latitude', 'longitude', 'street', 'address', 'city']
+File Size : 21277 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : favourite_deal.json
+Status    : VALID
+Summary   : JSON List (83 records), first record keys: ['_id', 'dealId', 'customerId', 'category', 'createdDt', '_class']
+File Size : 27464 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : initiative_orders.json
+Status    : VALID
+Summary   : JSON List (10108 records), first record keys: ['_id', 'userId', 'paymentReferenceToken', 'dealId', 'merchantUserId', 'merchantId', 'customerUserId', 'customerId']
+File Size : 9560456 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : invoice.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : merchant_payment_details.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : order_seqNo.json
+Status    : VALID
+Summary   : JSON List (1 records), first record keys: ['_id', 'seqNo', 'prefix', 'updatedDt', '_class']
+File Size : 251 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : pay_on_us_notifications.json
+Status    : VALID
+Summary   : JSON List (10887 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']
+File Size : 16209581 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : payment_otp_verification.json
+Status    : VALID
+Summary   : JSON List (289 records), first record keys: ['_id', 'otp', 'phoneNumber', 'expiryTime', 'token', 'status', 'type', 'createdDt']
+File Size : 167673 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : shedLock.json
+Status    : VALID
+Summary   : JSON List (1 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']
+File Size : 254 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : sponsored_deals.json
+Status    : VALID
+Summary   : JSON List (4 records), first record keys: ['_id', 'heading', 'description', 'dealId', 'backgroundImage', 'isActive', 'createdAt', 'updatedAt']
+File Size : 1824 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : tokens.json
+Status    : VALID
+Summary   : JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']
+File Size : 1180 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : top_up_status.json
+Status    : VALID
+Summary   : JSON List (8102 records), first record keys: ['_id', 'onusReferenceId', 'numoni_ref_id', 'status', 'createdDt', '_class']
+File Size : 2788908 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : transaction_history.json
+Status    : VALID
+Summary   : JSON List (35372 records), first record keys: ['_id', 'customerId', 'customerUserId', 'sourceTransactionId', 'transactionReferenceId', 'transactionName', 'transactionCategory', 'walletType']
+File Size : 57059424 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : transaction_session.json
+Status    : VALID
+Summary   : JSON List (10124 records), first record keys: ['_id', 'initiativeRefId', 'verificationId', 'invoiceNo', 'transactionId', 'type', 'sessionId', 'createdDt']
+File Size : 5495183 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : wallet.json
+Status    : VALID
+Summary   : JSON List (8660 records), first record keys: ['_id', 'amount', 'amountOnHold', 'version', 'updatedDt', 'createdDt', '_class']
+File Size : 2620377 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_customer
+File Name : wallet_adjust_management.json
+Status    : VALID
+Summary   : JSON List (243 records), first record keys: ['_id', 'walletId', 'userId', 'customerId', 'actualAmount', 'adjustBefore', 'adjustAfter', 'transactionAmount']
+File Size : 161514 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : adjustmentpointandbalance.json
+Status    : VALID
+Summary   : JSON List (4 records), first record keys: ['_id', 'walletId', 'balance', 'reason', 'adminId', 'walletType', '_class']
+File Size : 1259 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : bankInformation.json
+Status    : VALID
+Summary   : JSON List (112 records), first record keys: ['_id', 'merchantId', 'bankname', 'bankcode', 'accountNo', 'accountHolderName', 'bankTransferCode', 'primary']
+File Size : 65106 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : businessimage.json
+Status    : VALID
+Summary   : JSON List (385 records), first record keys: ['_id', 'userId', 'image', 'createdDt', 'updatedDt', '_class']
+File Size : 141397 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : category.json
+Status    : VALID
+Summary   : JSON List (14 records), first record keys: ['_id', 'name', 'tip_amount', '_class']
+File Size : 2638 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : deal_status.json
+Status    : VALID
+Summary   : JSON List (1 records), first record keys: ['_id', 'dealId', 'status', 'updatedBy', 'updatedAt', '_class']
+File Size : 313 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : dealimage.json
+Status    : VALID
+Summary   : JSON List (19 records), first record keys: ['_id', 'dealId', 'imagePath', '_class']
+File Size : 4506 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : deals.json
+Status    : VALID
+Summary   : JSON List (9 records), first record keys: ['_id', 'userId', 'name', 'description', 'dealType', 'availableStock', 'initialPrice', 'discount']
+File Size : 8144 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : file_mapping.json
+Status    : VALID
+Summary   : JSON List (590 records), first record keys: ['_id', 'tempUrl', 'objectKey', 'presignedUrl', 'originalFileName', 'contentType', 'fileSize', 'uploadedBy']
+File Size : 1244772 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchantDetails.json
+Status    : VALID
+Summary   : JSON List (116 records), first record keys: ['_id', 'email', 'businessImagePath', 'businessPhoneNo', 'businessName', 'brandName', 'registeredBusiness', 'category']
+File Size : 153640 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchant_payout.json
+Status    : VALID
+Summary   : JSON List (6 records), first record keys: ['_id', 'merchantId', 'payoutDate', 'status', 'createdAt', 'updatedAt']
+File Size : 2049 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchant_payout_initiatives.json
+Status    : VALID
+Summary   : JSON List (2 records), first record keys: ['_id', 'merchantId', 'merchantIdUserId', 'paymentReferenceToken', 'type', 'merchantTypes', 'beneficiaryBankCode', 'beneficiaryAccountNumber']
+File Size : 1341 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchant_reward_points_ledger.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchant_wallet_ledger.json
+Status    : VALID
+Summary   : JSON List (27565 records), first record keys: ['_id', 'merchantId', 'customerId', 'invoiceRefId', 'invoiceNo', 'type', 'numoni_transaction_ref_id', 'transactionNo']
+File Size : 37676096 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : merchantlocation.json
+Status    : VALID
+Summary   : JSON List (112 records), first record keys: ['_id', 'userId', 'storeNo', 'address', 'street', 'city', 'country', 'latitude']
+File Size : 59491 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : nigeria_regions.json
+Status    : VALID
+Summary   : JSON List (774 records), first record keys: ['_id', 'region', 'state', 'lga', '_class']
+File Size : 168497 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : notifications.json
+Status    : VALID
+Summary   : JSON List (47029 records), first record keys: ['_id', 'title', 'description', 'userId', 'usertype', 'read', 'createdDt', 'updatedDt']
+File Size : 22841356 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : pay_out_notification.json
+Status    : VALID
+Summary   : JSON List (6638 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']
+File Size : 8814567 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : payout_retry_records.json
+Status    : VALID
+Summary   : JSON List (7 records), first record keys: ['_id', 'merchantId', 'ledgerId', 'transactionId', 'retryCount', 'maxRetries', '_class']
+File Size : 2285 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : payout_scheduler_entry.json
+Status    : VALID
+Summary   : JSON List (4 records), first record keys: ['_id', 'merchantId', 'walletId', 'entryDate', 'scheduledPayoutDate', 'createdAt', '_class']
+File Size : 1691 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : payout_scheduler_process_entry.json
+Status    : VALID
+Summary   : JSON List (2 records), first record keys: ['_id', 'entryDate', 'createdAt', '_class']
+File Size : 587 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : pos.json
+Status    : VALID
+Summary   : JSON List (53 records), first record keys: ['_id', 'posId', 'posName', 'merchantId', 'bankName', 'accountNo', 'accountHolderName', 'bankCode']
+File Size : 37067 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : reviews.json
+Status    : VALID
+Summary   : JSON List (3362 records), first record keys: ['_id', 'merchantId', 'customerId', 'rating', 'comment', 'createdDt', 'updatedDt', '_class']
+File Size : 1359602 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : rewards.json
+Status    : VALID
+Summary   : JSON List (2 records), first record keys: ['_id', 'merchantId', 'rewardType', 'rules', 'rewardCap', 'rewardDistributed', 'distributionType', 'milestoneTarget']
+File Size : 1632 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : scheduler_locks.json
+Status    : VALID
+Summary   : JSON List (Empty list)
+File Size : 2 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : shedLock.json
+Status    : VALID
+Summary   : JSON List (2 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']
+File Size : 482 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : tokens.json
+Status    : VALID
+Summary   : JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']
+File Size : 1180 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : transaction_history.json
+Status    : VALID
+Summary   : JSON List (27566 records), first record keys: ['_id', 'sourceId', 'transactionId', 'transactionType', 'operationType', 'amount', 'description', 'status']
+File Size : 50455794 bytes
+----------------------------------------------------------------------------------------------------
+DB Name   : numoni_merchant
+File Name : wallet.json
+Status    : VALID
+Summary   : JSON List (15 records), first record keys: ['_id', 'amount', 'createdDt', '_class']
+File Size : 2750 bytes
+----------------------------------------------------------------------------------------------------

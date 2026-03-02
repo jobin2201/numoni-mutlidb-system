@@ -1,0 +1,278 @@
+{
+  "databases": {
+    "authentication": {
+      "collections": {
+        "audit_trail": {
+          "columns": [
+            "_id",
+            "accessDate",
+            "createdTime",
+            "type",
+            "typeId",
+            "userId",
+            "userName",
+            "userType"
+          ]
+        },
+        "authuser": {
+          "columns": [
+            "_id",
+            "deviceId",
+            "email",
+            "emailVerified",
+            "name",
+            "phoneNumber",
+            "phoneVerified",
+            "status"
+          ]
+        },
+        "login_activities": {
+          "columns": [
+            "_id",
+            "activityTime",
+            "activityType",
+            "deviceId",
+            "sessionId",
+            "userAgent",
+            "userId",
+            "userType"
+          ]
+        },
+        "user_sessions": {
+          "columns": [
+            "_id",
+            "deviceId",
+            "lastActivityTime",
+            "sessionEndTime",
+            "sessionId",
+            "sessionStartTime",
+            "userAgent",
+            "userId"
+          ]
+        }
+      }
+    },
+    "numoni_customer": {
+      "collections": {
+        "customerDetails": {
+          "columns": [
+            "_id",
+            "email",
+            "isEmailVerified",
+            "isPhoneVerified",
+            "kycStatus",
+            "kycUserImageUrl",
+            "name",
+            "notifications"
+          ]
+        },
+        "pay_on_us_notifications": {
+          "columns": [
+            "_id",
+            "businessId",
+            "merchantFee",
+            "merchantReference",
+            "onusReference",
+            "paymentStatus",
+            "providerReference",
+            "rawNotification"
+          ]
+        },
+        "transaction_history": {
+          "columns": [
+            "_id",
+            "balanceAfter",
+            "balanceBefore",
+            "branchName",
+            "createdDate",
+            "customerId",
+            "customerUserId",
+            "dealId"
+          ]
+        },
+        "wallet": {
+          "columns": [
+            "_id",
+            "amount",
+            "amountOnHold",
+            "updatedDt"
+          ]
+        }
+      }
+    },
+    "numoni_merchant": {
+      "collections": {
+        "merchantDetails": {
+          "columns": [
+            "_id",
+            "brandName",
+            "businessName",
+            "businessPhoneNo",
+            "email",
+            "identificationType",
+            "identificationTypeNumber",
+            "notification"
+          ]
+        },
+        "notifications": {
+          "columns": [
+            "_id",
+            "updatedDt",
+            "userId",
+            "usertype"
+          ]
+        },
+        "transaction_history": {
+          "columns": [
+            "_id",
+            "amount",
+            "amountBrandWallet",
+            "amountByWallet",
+            "amountPaid",
+            "balanceAfterTransaction",
+            "balanceBeforeTransaction",
+            "beneficiaryAccountName"
+          ]
+        },
+        "wallet": {
+          "columns": [
+            "_id",
+            "amount"
+          ]
+        }
+      }
+    }
+  },
+  "keyword_linker": {
+    "account": [
+      {
+        "database": "authentication",
+        "collection": "authuser"
+      }
+    ],
+    "account_deletion_request": [
+      {
+        "database": "authentication",
+        "collection": "account_deletion_request"
+      }
+    ],
+    "adjustmentpointandbalance": [
+      {
+        "database": "numoni_merchant",
+        "collection": "adjustmentpointandbalance"
+      }
+    ],
+    "audit_trail": [
+      {
+        "database": "authentication",
+        "collection": "audit_trail"
+      }
+    ],
+    "auth": [
+      {
+        "database": "authentication",
+        "collection": "authuser"
+      }
+    ],
+    "authentication": [
+      {
+        "database": "authentication",
+        "collection": "account_deletion_request"
+      },
+      {
+        "database": "authentication",
+        "collection": "audit_trail"
+      }
+    ],
+    "authuser": [
+      {
+        "database": "authentication",
+        "collection": "authuser"
+      }
+    ],
+    "balance": [
+      {
+        "database": "numoni_customer",
+        "collection": "wallet"
+      },
+      {
+        "database": "numoni_merchant",
+        "collection": "wallet"
+      }
+    ],
+    "bankinformation": [
+      {
+        "database": "numoni_merchant",
+        "collection": "bankInformation"
+      }
+    ],
+    "brand_wallet": [
+      {
+        "database": "numoni_customer",
+        "collection": "brand_wallet"
+      }
+    ],
+    "business": [
+      {
+        "database": "numoni_merchant",
+        "collection": "merchantDetails"
+      }
+    ],
+    "businessimage": [
+      {
+        "database": "numoni_merchant",
+        "collection": "businessimage"
+      }
+    ],
+    "buyer": [
+      {
+        "database": "numoni_customer",
+        "collection": "customerDetails"
+      }
+    ],
+    "category": [
+      {
+        "database": "numoni_merchant",
+        "collection": "category"
+      }
+    ],
+    "client": [
+      {
+        "database": "numoni_customer",
+        "collection": "customerDetails"
+      }
+    ],
+    "customer": [
+      {
+        "database": "numoni_customer",
+        "collection": "customerDetails"
+      }
+    ],
+    "customer_load_money": [
+      {
+        "database": "numoni_customer",
+        "collection": "customer_load_money"
+      }
+    ],
+    "customer_points_ledger": [
+      {
+        "database": "numoni_customer",
+        "collection": "customer_points_ledger"
+      }
+    ],
+    "customer_share_money": [
+      {
+        "database": "numoni_customer",
+        "collection": "customer_share_money"
+      }
+    ],
+    "customer_sharepoint_requests": [
+      {
+        "database": "numoni_customer",
+        "collection": "customer_sharepoint_requests"
+      }
+    ]
+  },
+  "estimated_tokens": 875,
+  "max_tokens_target": 1000
+}

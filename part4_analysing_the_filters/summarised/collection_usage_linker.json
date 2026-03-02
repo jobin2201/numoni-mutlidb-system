@@ -1,0 +1,398 @@
+{
+  "account_deletion_request": [
+    "Use `account_deletion_request` in authentication for authentication/identity activity for account_deletion_request (key fields: isActive, reason, userId).",
+    []
+  ],
+  "adjustmentpointandbalance": [
+    "Use `adjustmentpointandbalance` in numoni_merchant for merchant-domain data for adjustmentpointandbalance (key fields: adminId, balance, reason).",
+    []
+  ],
+  "audit_trail": [
+    "Use `audit_trail` in authentication for authentication/identity activity for audit_trail (key fields: accessDate, action, changeLog).",
+    [
+      "audit",
+      "audit trail",
+      "trail",
+      "triggered",
+      "login"
+    ]
+  ],
+  "authuser": [
+    "Use `authuser` in authentication for authentication/identity activity for authuser (key fields: accountLocked, createdDt, deviceId).",
+    [
+      "authuser",
+      "user",
+      "users",
+      "authentication",
+      "account",
+      "login"
+    ]
+  ],
+  "bankInformation": [
+    "Use `bankInformation` in numoni_merchant for merchant-domain data for bankInformation (key fields: accountHolderName, accountNo, active).",
+    []
+  ],
+  "brand_wallet": [
+    "Use `brand_wallet` in numoni_customer for customer-domain data for brand_wallet.",
+    []
+  ],
+  "businessimage": [
+    "Use `businessimage` in numoni_merchant for merchant-domain data for businessimage (key fields: createdDt, image, updatedDt).",
+    [
+      "merchant",
+      "business",
+      "business image",
+      "business images",
+      "images"
+    ]
+  ],
+  "category": [
+    "Use `category` in numoni_merchant for merchant-domain data for category (key fields: name, tip_amount).",
+    []
+  ],
+  "customer_load_money": [
+    "Use `customer_load_money` in numoni_customer for customer-domain data for customer_load_money (key fields: accountName, accountNumber, bankName).",
+    []
+  ],
+  "customer_points_ledger": [
+    "Use `customer_points_ledger` in numoni_customer for customer-domain data for customer_points_ledger.",
+    []
+  ],
+  "customer_share_money": [
+    "Use `customer_share_money` in numoni_customer for customer-domain data for customer_share_money (key fields: createDate, createdDt, paymentReferenceToken).",
+    []
+  ],
+  "customer_sharepoint_requests": [
+    "Use `customer_sharepoint_requests` in numoni_customer for customer-domain data for customer_sharepoint_requests (key fields: createdAt, phoneNumber, refTransactionId).",
+    []
+  ],
+  "customer_wallet_ledger": [
+    "Use `customer_wallet_ledger` in numoni_customer for customer-domain data for customer_wallet_ledger (key fields: after_balance, amount, balance_amount).",
+    [
+      "customer",
+      "customers",
+      "wallet",
+      "ledger",
+      "wallet ledger",
+      "ledger movement",
+      "credit",
+      "credits",
+      "debit",
+      "debits"
+    ]
+  ],
+  "customerDetails": [
+    "Use `customerDetails` in numoni_customer for customer-domain data for customerDetails (key fields: createdDt, email, isEmailVerified).",
+    [
+      "customer",
+      "customers",
+      "details",
+      "client",
+      "clients",
+      "user",
+      "users"
+    ]
+  ],
+  "customerError": [
+    "Use `customerError` in numoni_customer for customer-domain data for customerError (key fields: comment, createdDt, customerId).",
+    []
+  ],
+  "customerlocation": [
+    "Use `customerlocation` in numoni_customer for customer-domain data for customerlocation (key fields: address, city, country).",
+    [
+      "customer",
+      "customers",
+      "location",
+      "locations",
+      "city",
+      "cities"
+    ]
+  ],
+  "deal_status": [
+    "Use `deal_status` in numoni_merchant for merchant-domain data for deal_status (key fields: dealId, status, updatedAt).",
+    []
+  ],
+  "dealimage": [
+    "Use `dealimage` in numoni_merchant for merchant-domain data for dealimage (key fields: dealId, imagePath).",
+    [
+      "deal",
+      "deals",
+      "image",
+      "images",
+      "deal image",
+      "deal images"
+    ]
+  ],
+  "deals": [
+    "Use `deals` in numoni_merchant for merchant-domain data for deals (key fields: approveStatus, approvedAt, approvedBy).",
+    [
+      "deals",
+      "deal",
+      "merchant",
+      "created deals",
+      "deal exists",
+      "transactions for deals"
+    ]
+  ],
+  "favourite_deal": [
+    "Use `favourite_deal` in numoni_customer for customer-domain data for favourite_deal (key fields: category, createdAt, createdDt).",
+    [
+      "customer",
+      "customers",
+      "merchant",
+      "favourite",
+      "favorite",
+      "saved deal",
+      "added deals"
+    ]
+  ],
+  "file_mapping": [
+    "Use `file_mapping` in numoni_merchant for merchant-domain data for file_mapping (key fields: contentType, createdAt, expiresAt).",
+    []
+  ],
+  "id_seq": [
+    "Use `id_seq` in authentication for authentication/identity activity for id_seq.",
+    []
+  ],
+  "initiative_orders": [
+    "Use `initiative_orders` in numoni_customer for customer-domain data for initiative_orders (key fields: amountBrandWallet, amountByWallet, createdDt).",
+    []
+  ],
+  "invoice": [
+    "Use `invoice` in numoni_customer for customer-domain data for invoice.",
+    [
+      "customer",
+      "customers",
+      "invoice",
+      "invoices",
+      "created invoice",
+      "created invoices"
+    ]
+  ],
+  "login_activities": [
+    "Use `login_activities` in authentication for authentication/identity activity for login_activities (key fields: activityTime, activityType, deviceId).",
+    [
+      "login",
+      "record",
+      "records",
+      "activity",
+      "activities",
+      "login activity",
+      "login activities",
+      "login record",
+      "login records"
+    ]
+  ],
+  "merchant_payment_details": [
+    "Use `merchant_payment_details` in numoni_customer for customer-domain data for merchant_payment_details.",
+    []
+  ],
+  "merchant_payout": [
+    "Use `merchant_payout` in numoni_merchant for merchant-domain data for merchant_payout (key fields: createdAt, merchantId, payoutDate).",
+    [
+      "merchant",
+      "payout",
+      "payouts",
+      "payout amount",
+      "payout amounts"
+    ]
+  ],
+  "merchant_payout_initiatives": [
+    "Use `merchant_payout_initiatives` in numoni_merchant for merchant-domain data for merchant_payout_initiatives (key fields: amount, beneficiaryAccountName, beneficiaryAccountNumber).",
+    []
+  ],
+  "merchant_reward_points_ledger": [
+    "Use `merchant_reward_points_ledger` in numoni_merchant for merchant-domain data for merchant_reward_points_ledger.",
+    []
+  ],
+  "merchant_wallet_ledger": [
+    "Use `merchant_wallet_ledger` in numoni_merchant for merchant-domain data for merchant_wallet_ledger (key fields: amountBrandWallet, amountByWallet, balance_amount).",
+    [
+      "merchant",
+      "merchants",
+      "wallet",
+      "ledger",
+      "wallet ledger",
+      "credit",
+      "credits",
+      "debit",
+      "debits"
+    ]
+  ],
+  "merchantDetails": [
+    "Use `merchantDetails` in numoni_merchant for merchant-domain data for merchantDetails (key fields: account, brandName, businessClosingHours).",
+    [
+      "merchant",
+      "merchants",
+      "details",
+      "business",
+      "vendor",
+      "vendors",
+      "store"
+    ]
+  ],
+  "merchantlocation": [
+    "Use `merchantlocation` in numoni_merchant for merchant-domain data for merchantlocation (key fields: address, city, country).",
+    [
+      "merchant",
+      "merchants",
+      "location",
+      "locations",
+      "city",
+      "cities"
+    ]
+  ],
+  "nigeria_regions": [
+    "Use `nigeria_regions` in numoni_merchant for merchant-domain data for nigeria_regions (key fields: lga, region, state).",
+    []
+  ],
+  "notifications": [
+    "Use `notifications` in numoni_merchant for merchant-domain data for notifications (key fields: createdDt, description, read).",
+    [
+      "notifications",
+      "notification",
+      "received notifications"
+    ]
+  ],
+  "order_seqNo": [
+    "Use `order_seqNo` in numoni_customer for customer-domain data for order_seqNo (key fields: prefix, seqNo, updatedDt).",
+    []
+  ],
+  "otp": [
+    "Use `otp` in authentication for authentication/identity activity for otp (key fields: expiryTime, otp, otpType).",
+    []
+  ],
+  "pay_on_us_notifications": [
+    "Use `pay_on_us_notifications` in numoni_customer for customer-domain data for pay_on_us_notifications (key fields: accountNumber, businessId, createdAt).",
+    [
+      "customer",
+      "customers",
+      "notifications",
+      "notification",
+      "pay on us",
+      "received notifications"
+    ]
+  ],
+  "pay_out_notification": [
+    "Use `pay_out_notification` in numoni_merchant for merchant-domain data for pay_out_notification (key fields: accountNumber, businessId, createdAt).",
+    []
+  ],
+  "payment_otp_verification": [
+    "Use `payment_otp_verification` in numoni_customer for customer-domain data for payment_otp_verification (key fields: createdDt, expiryTime, initiativeRefId).",
+    []
+  ],
+  "payout_retry_records": [
+    "Use `payout_retry_records` in numoni_merchant for merchant-domain data for payout_retry_records (key fields: ledgerId, maxRetries, merchantId).",
+    []
+  ],
+  "payout_scheduler_entry": [
+    "Use `payout_scheduler_entry` in numoni_merchant for merchant-domain data for payout_scheduler_entry (key fields: createdAt, entryDate, merchantId).",
+    []
+  ],
+  "payout_scheduler_process_entry": [
+    "Use `payout_scheduler_process_entry` in numoni_merchant for merchant-domain data for payout_scheduler_process_entry (key fields: createdAt, entryDate).",
+    []
+  ],
+  "pos": [
+    "Use `pos` in numoni_merchant for merchant-domain data for pos (key fields: accountHolderName, accountNo, address).",
+    []
+  ],
+  "refresh_token_record": [
+    "Use `refresh_token_record` in authentication for authentication/identity activity for refresh_token_record (key fields: dateTime, token, type).",
+    []
+  ],
+  "refreshtoken": [
+    "Use `refreshtoken` in authentication for authentication/identity activity for refreshtoken (key fields: expiresAt, expiryDate, isRevoked).",
+    []
+  ],
+  "reviews": [
+    "Use `reviews` in numoni_merchant for merchant-domain data for reviews (key fields: comment, createdDt, customerId).",
+    []
+  ],
+  "rewards": [
+    "Use `rewards` in numoni_merchant for merchant-domain data for rewards (key fields: createdAt, distributionType, endDate).",
+    []
+  ],
+  "roles": [
+    "Use `roles` in authentication for authentication/identity activity for roles (key fields: createdDt, description, isActive).",
+    [
+      "roles",
+      "role",
+      "assigned roles",
+      "role assigned"
+    ]
+  ],
+  "scheduler_locks": [
+    "Use `scheduler_locks` in numoni_merchant for merchant-domain data for scheduler_locks.",
+    []
+  ],
+  "shedLock": [
+    "Use `shedLock` in numoni_customer for customer-service scheduler lock records, and in numoni_merchant for merchant-service scheduler lock records.",
+    []
+  ],
+  "signin_records": [
+    "Use `signin_records` in authentication for authentication/identity activity for signin_records.",
+    [
+      "signin_records",
+      "signin",
+      "sign in",
+      "signin records"
+    ]
+  ],
+  "sponsored_deals": [
+    "Use `sponsored_deals` in numoni_customer for customer-domain data for sponsored_deals (key fields: backgroundImage, createdAt, dealId).",
+    []
+  ],
+  "tokens": [
+    "Use `tokens` in numoni_customer for customer-service token records, and in numoni_merchant for merchant-service token records.",
+    []
+  ],
+  "top_up_status": [
+    "Use `top_up_status` in numoni_customer for customer-domain data for top_up_status (key fields: createdDt, numoni_ref_id, onusReferenceId).",
+    []
+  ],
+  "transaction_history": [
+    "Use `transaction_history` in numoni_customer for customer transactions, spends, credits/debits, and customer payment history, and in numoni_merchant for merchant sales, revenue, POS/business transactions, and merchant payment history.",
+    [
+      "transaction",
+      "transactions",
+      "history",
+      "last transaction",
+      "matching transaction"
+    ]
+  ],
+  "transaction_session": [
+    "Use `transaction_session` in numoni_customer for customer-domain data for transaction_session (key fields: createdDt, initiativeRefId, invoiceNo).",
+    []
+  ],
+  "user_sessions": [
+    "Use `user_sessions` in authentication for authentication/identity activity for user_sessions (key fields: deviceId, fcmToken, ipAddress).",
+    [
+      "sessions",
+      "session",
+      "active session",
+      "active sessions",
+      "authentication session",
+      "authentication sessions"
+    ]
+  ],
+  "userDeviceDetail": [
+    "Use `userDeviceDetail` in authentication for authentication/identity activity for userDeviceDetail (key fields: createdDt, deviceId, updatedDt).",
+    []
+  ],
+  "wallet": [
+    "Use `wallet` in numoni_customer for customer wallet balances and customer wallet state, and in numoni_merchant for merchant wallet balances and merchant wallet state.",
+    [
+      "wallet",
+      "wallets",
+      "balance",
+      "record",
+      "records",
+      "wallet balance"
+    ]
+  ],
+  "wallet_adjust_management": [
+    "Use `wallet_adjust_management` in numoni_customer for customer-domain data for wallet_adjust_management (key fields: actualAmount, adjustAfter, adjustBefore).",
+    []
+  ]
+}

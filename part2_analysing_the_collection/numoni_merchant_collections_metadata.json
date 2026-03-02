@@ -1,0 +1,1529 @@
+{
+  "adjustmentpointandbalance": {
+    "total_records": 4,
+    "fields": [
+      "adminId",
+      "balance",
+      "reason",
+      "walletId",
+      "walletType"
+    ],
+    "sample_values": {
+      "walletId": [
+        "00036114",
+        "00060024",
+        "11747278"
+      ],
+      "balance": [
+        "-100.0",
+        "54700.0",
+        "555.0"
+      ],
+      "reason": [
+        "Missed credit",
+        "Over credit",
+        "Wrong credit"
+      ],
+      "adminId": [
+        "6926d063ae14289da2c1ca5f"
+      ],
+      "walletType": [
+        "Main_Wallet"
+      ]
+    }
+  },
+  "bankInformation": {
+    "total_records": 112,
+    "fields": [
+      "accountHolderName",
+      "accountNo",
+      "active",
+      "bankTransferCode",
+      "bankcode",
+      "bankname",
+      "createdDt",
+      "merchantId",
+      "minimumSpentAmount",
+      "primary",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "6926be196dcebd1ce4cd8cee",
+        "6926e751df1626dafeda057b",
+        "6928578f3a9d9ba73b97b4ad",
+        "692862bcdf1626dafeda05e0"
+      ],
+      "bankname": [
+        "MONIEPOINT MICROFINANCE BANK",
+        "OPAY",
+        "STERLING BANK",
+        "ZENITH BANK PLC"
+      ],
+      "bankcode": [
+        "000001",
+        "000015",
+        "090405",
+        "100004"
+      ],
+      "accountNo": [
+        "0020461150",
+        "2080828534",
+        "5525102571",
+        "8062551247"
+      ],
+      "accountHolderName": [
+        "ENE GLOBAL SERVICES LTD",
+        "FOLLYJAY-S WELLNESS LTD - FOLLY JAYS WELLNESS",
+        "TESLIM  AYANTOLA",
+        "TESLIM AYANTOLA"
+      ],
+      "bankTransferCode": [
+        "000001",
+        "000015",
+        "090405",
+        "100004"
+      ],
+      "primary": [
+        "False",
+        "True"
+      ],
+      "minimumSpentAmount": [
+        "0.0",
+        "10000.0",
+        "2000.0",
+        "500.0"
+      ],
+      "active": [
+        "False",
+        "True"
+      ]
+    }
+  },
+  "businessimage": {
+    "total_records": 385,
+    "fields": [
+      "createdDt",
+      "image",
+      "updatedDt",
+      "userId"
+    ],
+    "sample_values": {
+      "userId": [
+        "6926e751df1626dafeda057b",
+        "6926e7983a9d9ba73b97b46d",
+        "6926f050df1626dafeda058c",
+        "6927060fdf1626dafeda05b4"
+      ],
+      "image": [
+        "image/1764157518180_b48cc01e.jpg",
+        "image/1764157525582_905c68e3.jpg",
+        "image/1764157530140_318a120d.jpg",
+        "image/1764157532300_5434efb5.jpg"
+      ]
+    }
+  },
+  "category": {
+    "total_records": 14,
+    "fields": [
+      "name",
+      "tip_amount"
+    ],
+    "sample_values": {
+      "name": [
+        "Hotels",
+        "Restaurant",
+        "Saloon",
+        "Supermarkets"
+      ],
+      "tip_amount": [
+        "False",
+        "True"
+      ]
+    }
+  },
+  "deal_status": {
+    "total_records": 1,
+    "fields": [
+      "dealId",
+      "status",
+      "updatedAt",
+      "updatedBy"
+    ],
+    "sample_values": {
+      "dealId": [
+        "695bfc2a94f75b044dd3d323"
+      ],
+      "status": [
+        "HIDDEN"
+      ],
+      "updatedBy": [
+        "ADMIN"
+      ]
+    }
+  },
+  "dealimage": {
+    "total_records": 19,
+    "fields": [
+      "dealId",
+      "imagePath"
+    ],
+    "sample_values": {
+      "dealId": [
+        "6938eb14931c10d3ba51f210",
+        "6938f80ce10209aff6b655b1",
+        "693a8ec3931c10d3ba51f268",
+        "6942e76082c1052f74245699"
+      ],
+      "imagePath": [
+        "dealImage/1765337875562_083b81bb.png",
+        "dealImage/1765341194170_f9a21797.png",
+        "dealImage/1765992286841_3081f448.jpg",
+        "dealImage/1765992287465_3acab73b.jpg"
+      ]
+    }
+  },
+  "deals": {
+    "total_records": 9,
+    "fields": [
+      "approveStatus",
+      "approvedAt",
+      "approvedBy",
+      "availableStock",
+      "category",
+      "createdBy",
+      "createdDt",
+      "dealStatus",
+      "dealType",
+      "description",
+      "discount",
+      "endDate"
+    ],
+    "sample_values": {
+      "userId": [
+        "6926e751df1626dafeda057b",
+        "6938e429a011eae7d25f6f34",
+        "693ac93da011eae7d25f6ffa",
+        "6942a024ffae763a2fdaac1e"
+      ],
+      "name": [
+        "Christmas Discount Sales",
+        "Ember Sales",
+        "TEST-DEAL",
+        "Xmas Sales"
+      ],
+      "description": [
+        "10\u201d \nSuper double drawn bone straight \n100% human ",
+        "Buy 1 get 1 at half price",
+        "Massage (Female & Male) \nAvailable for Home servic",
+        "teasrt"
+      ],
+      "dealType": [
+        "Bundle",
+        "Discount"
+      ],
+      "availableStock": [
+        "10",
+        "100",
+        "20",
+        "30"
+      ],
+      "initialPrice": [
+        "1000",
+        "180000.0",
+        "200",
+        "35000.0"
+      ],
+      "discount": [
+        "10%",
+        "10%%",
+        "15%",
+        "5%"
+      ],
+      "newPrice": [
+        "171000.0",
+        "180",
+        "29750.0",
+        "900"
+      ],
+      "isActive": [
+        "False",
+        "True"
+      ],
+      "dealStatus": [
+        "EXPIRED",
+        "PENDING"
+      ],
+      "approveStatus": [
+        "APPROVED",
+        "PENDING"
+      ],
+      "createdBy": [
+        "ADMIN",
+        "MERCHANT"
+      ],
+      "isBranchDeal": [
+        "False"
+      ],
+      "qualifyingPurchase": [
+        "1"
+      ],
+      "rewardItemQuantity": [
+        "10"
+      ],
+      "pricePerItem": [
+        "3000.0"
+      ],
+      "isInternal": [
+        "False"
+      ],
+      "approvedBy": [
+        "superadmin@numoni.io"
+      ]
+    }
+  },
+  "file_mapping": {
+    "total_records": 590,
+    "fields": [
+      "contentType",
+      "createdAt",
+      "expiresAt",
+      "fileSize",
+      "objectKey",
+      "originalFileName",
+      "presignedUrl",
+      "tempUrl",
+      "uploadedBy"
+    ],
+    "sample_values": {
+      "tempUrl": [
+        "5ba57575-4a2f-44db-8436-d3a7df09d959",
+        "c4227a77-ce4c-41bf-8a65-fbfeeada8b62",
+        "ead006ea-caa3-40f3-b584-6ef72387517e",
+        "fe7019f8-acec-4038-861f-541e7372c5a9"
+      ],
+      "objectKey": [
+        "image/1764146938078_8854d975.png",
+        "image/1764146942246_98f28249.jpg",
+        "image/1764146945495_c9e3f137.jpg",
+        "image/1764146946415_b2880833.jpg"
+      ],
+      "presignedUrl": [
+        "https://numoni-prod-uploads.s3.eu-west-1.amazonaws"
+      ],
+      "originalFileName": [
+        "scaled_1000225965.jpg",
+        "scaled_1000225977.jpg",
+        "scaled_1000226987.jpg",
+        "scaled_1000235558.png"
+      ],
+      "contentType": [
+        "application/pdf",
+        "image/jpeg",
+        "image/png"
+      ],
+      "fileSize": [
+        "158870",
+        "5894",
+        "88518",
+        "93808"
+      ],
+      "uploadedBy": [
+        "6926be196dcebd1ce4cd8cee",
+        "6926e751df1626dafeda057b",
+        "6926e7983a9d9ba73b97b46d",
+        "692eb6de3a9d9ba73b97b5ed"
+      ]
+    }
+  },
+  "merchant_payout": {
+    "total_records": 6,
+    "fields": [
+      "createdAt",
+      "merchantId",
+      "payoutDate",
+      "status",
+      "updatedAt"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "00050347",
+        "00054139",
+        "00058070",
+        "26511368"
+      ],
+      "status": [
+        "SKIPPED",
+        "SUCCESS"
+      ]
+    }
+  },
+  "merchant_payout_initiatives": {
+    "total_records": 2,
+    "fields": [
+      "amount",
+      "beneficiaryAccountName",
+      "beneficiaryAccountNumber",
+      "beneficiaryBankCode",
+      "createdDt",
+      "email",
+      "merchantId",
+      "merchantIdUserId",
+      "merchantTypes",
+      "paymentReferenceToken",
+      "reference",
+      "type"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "00031595"
+      ],
+      "merchantIdUserId": [
+        "6926e8923a9d9ba73b97b472"
+      ],
+      "paymentReferenceToken": [
+        "302fd5aa-e71e-42c2-bea2-1d93039f34f9",
+        "5b9050ad-0b07-4294-abc9-4781bafeabfe"
+      ],
+      "type": [
+        "PAY_OUT"
+      ],
+      "merchantTypes": [
+        "MERCHANT"
+      ],
+      "beneficiaryBankCode": [
+        "100033"
+      ],
+      "beneficiaryAccountNumber": [
+        "7064400726"
+      ],
+      "beneficiaryAccountName": [
+        "OJONUYO  VICTORIA  IJEGWA"
+      ],
+      "email": [
+        "Ochenjelevictoria@gmail.com"
+      ],
+      "reference": [
+        "3070",
+        "3072"
+      ],
+      "amount": [
+        "7200.0"
+      ]
+    }
+  },
+  "merchant_reward_points_ledger": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "merchant_wallet_ledger": {
+    "total_records": 27565,
+    "fields": [
+      "amountBrandWallet",
+      "amountByWallet",
+      "balance_amount",
+      "createdDt",
+      "customerId",
+      "invoiceNo",
+      "invoiceRefId",
+      "merchantId",
+      "merchantTypes",
+      "numoni_transaction_ref_id",
+      "paymentViaType",
+      "posAccountHolderName"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "00054139",
+        "26511368"
+      ],
+      "customerId": [
+        "00064542",
+        "12962369",
+        "24780907",
+        "42455787"
+      ],
+      "invoiceRefId": [
+        "695f9bc8fcb39c83aa04297f",
+        "695f9be86582caab724423a6",
+        "6962201bd287748443742027",
+        "697cdc56c24a39424693d4aa"
+      ],
+      "invoiceNo": [
+        "6c01ecaa-877c-4e41-b815-06fad5a0c6c5",
+        "81c3b3bc-b875-415b-872e-dbcc74c6e8ac",
+        "acdd3ca6-0497-4c4b-b83b-6d85dedbf676",
+        "bcc5b32c-4d44-448f-81ff-eb1c44c03c08"
+      ],
+      "type": [
+        "SALES",
+        "SERVICE_FEE"
+      ],
+      "numoni_transaction_ref_id": [
+        "695f9bc8fcb39c83aa04297f",
+        "695f9be86582caab724423a6",
+        "6962201bd287748443742027",
+        "697cdc56c24a39424693d4aa"
+      ],
+      "transactionNo": [
+        "09bb49f0-7f40-4554-b6d3-4b13e30aa351",
+        "1719c51a-f9f3-45ed-b9c8-1681b6ca305d",
+        "8a622df9-5f1c-4b1f-aa31-a201d751fa61",
+        "93ad831a-15e2-4b1f-a6d2-3a0dc34e4107"
+      ],
+      "transactionId": [
+        "09bb49f0-7f40-4554-b6d3-4b13e30aa351",
+        "1719c51a-f9f3-45ed-b9c8-1681b6ca305d",
+        "8a622df9-5f1c-4b1f-aa31-a201d751fa61",
+        "93ad831a-15e2-4b1f-a6d2-3a0dc34e4107"
+      ],
+      "trn_type": [
+        "C",
+        "D"
+      ],
+      "trn_in_amount": [
+        "11300.0",
+        "7350.0",
+        "8200.0",
+        "9100.0"
+      ],
+      "balance_amount": [
+        "2252880.0",
+        "2253615.0",
+        "2261980.0",
+        "7672078.6"
+      ],
+      "status": [
+        "SUCCESSFUL"
+      ],
+      "transactionReferenceId": [
+        "465b0fe7-f009-407f-be64-4fa4382daab9",
+        "6a4e23cd-81d4-4670-946f-14ce9fef1447",
+        "ceb6c75a-cde4-44c0-b6c4-210c1b9f4c88",
+        "f0dceedb-eae0-4370-80fd-a8b91a726e55"
+      ],
+      "merchantTypes": [
+        "MERCHANT"
+      ],
+      "walletType": [
+        "NUMONI_WALLET"
+      ],
+      "amountByWallet": [
+        "0.0",
+        "7350.0",
+        "8200.0",
+        "9100.0"
+      ],
+      "amountBrandWallet": [
+        "0.0"
+      ],
+      "unitsPurchased": [
+        "0"
+      ],
+      "paymentViaType": [
+        "Merchant",
+        "POS"
+      ],
+      "posId": [
+        "37933010",
+        "71344200",
+        "80082924",
+        "87993388"
+      ],
+      "posName": [
+        "POS-023",
+        "POS-025",
+        "POS-042",
+        "POS-051"
+      ],
+      "trn_out_amount": [
+        "6110.0",
+        "735.0",
+        "820.0",
+        "910.0"
+      ],
+      "posLocation": [
+        "Ekoro",
+        "Ikorodu",
+        "Ikotun-Idumu Road",
+        "Sagamu Road"
+      ],
+      "posBankName": [
+        "FCMB"
+      ],
+      "posAccountHolderName": [
+        "FOOD CONCEPTS PLC"
+      ],
+      "posAccountNumber": [
+        "0760869014"
+      ]
+    }
+  },
+  "merchantDetails": {
+    "total_records": 116,
+    "fields": [
+      "account",
+      "brandName",
+      "businessClosingHours",
+      "businessImagePath",
+      "businessName",
+      "businessOpenHours",
+      "businessPhoneNo",
+      "businessReqNo",
+      "cacDocumentPath",
+      "category",
+      "createdDt",
+      "description"
+    ],
+    "sample_values": {
+      "email": [
+        "Chop1foods@gmail.com",
+        "afangspecial@gmail.com",
+        "ogavisa@gmail.com",
+        "olabiyisi@yahoo.com"
+      ],
+      "businessImagePath": [
+        "",
+        "image/1764157515282_95957a54.jpg",
+        "image/1768421323620_d5486f77.jpg",
+        "image/1768437609011_cea1c0c3.jpg"
+      ],
+      "businessPhoneNo": [
+        "+2348022224274",
+        "+2348023139325",
+        "+2348081024490",
+        "+2348088510347"
+      ],
+      "businessName": [
+        "360 Enterprises",
+        "Afang Special",
+        "Chopone",
+        "Chrisllar Global Ent. LTD."
+      ],
+      "brandName": [
+        "360 Enterprises",
+        "Afang Special",
+        "Chopone",
+        "Chrisllar Global Ent. LTD."
+      ],
+      "registeredBusiness": [
+        "False",
+        "True"
+      ],
+      "userId": [
+        "6926e751df1626dafeda057b",
+        "6927060fdf1626dafeda05b4",
+        "6927080f3a9d9ba73b97b48b",
+        "6967f73d096e53ffb5a58c03"
+      ],
+      "description": [
+        "Deals in delicious pastries such bread, cake, snac",
+        "Sell supermarket items",
+        "Travel food and others",
+        "We sell authentic Nigeria soups in bowls. Pre- ord"
+      ],
+      "notification": [
+        "False"
+      ],
+      "regLevel": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "registration": [
+        "True"
+      ],
+      "location": [
+        "False",
+        "True"
+      ],
+      "document": [
+        "False",
+        "True"
+      ],
+      "account": [
+        "False",
+        "True"
+      ],
+      "sellOffline": [
+        "False",
+        "True"
+      ],
+      "sellOnline": [
+        "False",
+        "True"
+      ],
+      "isDeleted": [
+        "0",
+        "1"
+      ],
+      "level": [
+        "Level_1"
+      ],
+      "tin": [
+        "1075647956",
+        "1076097151",
+        "11104522",
+        "8888888888888"
+      ],
+      "identificationType": [
+        "CAC",
+        "NIN (National Identity Number)"
+      ],
+      "identificationTypeNumber": [
+        "32858348055",
+        "34423287403",
+        "61410920056",
+        "62117531912"
+      ],
+      "businessReqNo": [
+        "BN2526993",
+        "RC7611820",
+        "RC8367390",
+        "RC898110"
+      ],
+      "reqCertificatePath": [
+        "document/1764158653925_bf0ad894.jpg",
+        "document/1764590146104_cc6f36ad.jpg",
+        "document/1764763307965_3fef687a.jpg",
+        "document/1765548033114_ae60649d.jpg"
+      ],
+      "qrCode": [
+        "qr-codes/ekaetteudoh05@gmail.com_MERCHANT_qrCode.p",
+        "qr-codes/faithcoker84@gmail.com_MERCHANT_qrCode.pn",
+        "qr-codes/hassanatotaru@yahoo.com_MERCHANT_qrCode.p",
+        "qr-codes/udelemathias@gmail.com_MERCHANT_qrCode.pn"
+      ],
+      "verifiedNin": [
+        "False",
+        "True"
+      ],
+      "verifiedTin": [
+        "False"
+      ],
+      "verifiedCac": [
+        "False",
+        "True"
+      ],
+      "isInternal": [
+        "False",
+        "True"
+      ],
+      "menuPath": [
+        "document/1765548394592_89cd389a.jpg",
+        "image/1764342943110_3d5f734a.jpg",
+        "image/1764590146720_6547b785.png",
+        "image/1764763308804_d7292410.jpg"
+      ],
+      "businessOpenHours": [
+        "09:00",
+        "8:00 AM",
+        "9:07 PM",
+        "9:19 PM"
+      ],
+      "businessClosingHours": [
+        "04:00",
+        "8:00 PM",
+        "9:07 PM",
+        "9:20 PM"
+      ],
+      "verificationStatus": [
+        "APPROVED",
+        "UNVERIFIED"
+      ],
+      "website": [
+        "https://awoofberekete.com",
+        "https://google.com",
+        "https://www.puffinsbeautyspa.com",
+        "https://www.xmasaffairs.com"
+      ],
+      "whatsapp": [
+        "https://wa.me/2348023854894",
+        "https://wa.me/2348027680977",
+        "https://wa.me/2348082520434",
+        "https://wa.me/2348154321893"
+      ],
+      "facebook": [
+        "https://Afyhairpalace",
+        "https://google.com",
+        "https://jarastores",
+        "https://www.facebook.com/share/1B7gd2vug4/"
+      ],
+      "instagram": [
+        "https://Afyhairpalace",
+        "https://Chawbox bistro & grills",
+        "https://www.instagram.com/puffins_beauty_spa?igsh=",
+        "https://www.instagram.com/teslimayantola/"
+      ],
+      "tiktok": [
+        "https://Christmasaffairs",
+        "https://Hairstylistinakoka",
+        "https://google.com",
+        "https://www.tiktok.com/@puffins.beauty.sp?_t=ZS-8y"
+      ],
+      "cacDocumentPath": [
+        "document/1764425838526_ff7b4fe8.pdf",
+        "document/1765548394208_7eed86c5.jpg",
+        "document/1765999732020_147bd49d.jpg",
+        "document/1769172998956_79a6b6e6.jpg"
+      ],
+      "twitter": [
+        "https://@hollyseehotel",
+        "https://google.com",
+        "https://jarastores"
+      ],
+      "linkedin": [
+        "https://google.com"
+      ],
+      "snapchat": [
+        "https://google.com"
+      ],
+      "tinPath": [
+        "cac/1765546739475_804075e4.jpg"
+      ]
+    }
+  },
+  "merchantlocation": {
+    "total_records": 112,
+    "fields": [
+      "address",
+      "city",
+      "country",
+      "isActive",
+      "latitude",
+      "longitude",
+      "postalCode",
+      "storeNo",
+      "street",
+      "updatedDt",
+      "userId"
+    ],
+    "sample_values": {
+      "userId": [
+        "6926be196dcebd1ce4cd8cee",
+        "6926e751df1626dafeda057b",
+        "6926e7983a9d9ba73b97b46d",
+        "6926f050df1626dafeda058c"
+      ],
+      "storeNo": [
+        "",
+        "11, Akinyede Crescent ",
+        "4",
+        "5"
+      ],
+      "address": [
+        "21 Alh. Ganiyu Salami St",
+        "5, 21 Alh. Ganiyu Salami St, Abule-Egba",
+        "Banana Island Road, Ikoyi ",
+        "vulcanizer Bus stop Akowonjo Egbeda Lagos "
+      ],
+      "street": [
+        "21 Alh. Ganiyu Salami St",
+        "39b Ogudu LSDPC Estate, Ogudu Road ",
+        "Banana Island Road, Ikoyi ",
+        "vulcanizer Bus stop Akowonjo Egbeda Lagos "
+      ],
+      "city": [
+        "Abule-Egba",
+        "Abule-Egba ",
+        "Alimosho ",
+        "Ikoyi "
+      ],
+      "country": [
+        "Nigeria"
+      ],
+      "latitude": [
+        "6.459172334765797",
+        "6.6006655",
+        "6.6586704",
+        "6.6586718"
+      ],
+      "longitude": [
+        "3.2468204",
+        "3.2468242",
+        "3.3008778",
+        "3.4494068348003073"
+      ],
+      "isActive": [
+        "True"
+      ],
+      "postalCode": [
+        "",
+        "102213",
+        "105102",
+        "300001"
+      ]
+    }
+  },
+  "nigeria_regions": {
+    "total_records": 774,
+    "fields": [
+      "lga",
+      "region",
+      "state"
+    ],
+    "sample_values": {
+      "region": [
+        "North Central",
+        "North East",
+        "South East",
+        "South South"
+      ],
+      "state": [
+        "Abia",
+        "Abuja Federal Capital Territory",
+        "Adamawa",
+        "Imo"
+      ],
+      "lga": [
+        "Aba North",
+        "Aba South",
+        "Arochukwu",
+        "Bende"
+      ]
+    }
+  },
+  "notifications": {
+    "total_records": 47029,
+    "fields": [
+      "createdDt",
+      "description",
+      "read",
+      "title",
+      "updatedDt",
+      "userId",
+      "usertype"
+    ],
+    "sample_values": {
+      "title": [
+        "Bonus added",
+        "Merchant Added BusinessDetails successfully",
+        "WALLET_CREDIT",
+        "Wallet Top Up"
+      ],
+      "description": [
+        "Your business profile was added successfully.",
+        "Your wallet has been credited with amount: 11000.0",
+        "Your wallet has been topped up with amount: 5000.0",
+        "Your wallet topup Bonus has been topped up with am"
+      ],
+      "userId": [
+        "694ce3acad01950a1e51e8c1",
+        "695788109366edfe6f64ccf5",
+        "69578db99366edfe6f64cd08",
+        "69578e139366edfe6f64cd14"
+      ],
+      "usertype": [
+        "ADMIN",
+        "CUSTOMER",
+        "MERCHANT"
+      ],
+      "read": [
+        "False"
+      ]
+    }
+  },
+  "pay_out_notification": {
+    "total_records": 6638,
+    "fields": [
+      "accountNumber",
+      "businessId",
+      "createdAt",
+      "currency",
+      "merchantFee",
+      "merchantReference",
+      "onusReference",
+      "paymentChannel",
+      "paymentStatus",
+      "providerReference",
+      "rawNotification",
+      "sessionId"
+    ],
+    "sample_values": {
+      "type": [
+        "PAYOUT"
+      ],
+      "currency": [
+        "NGN"
+      ],
+      "transactionAmount": [
+        "2318.9",
+        "2340.0",
+        "5805.0",
+        "5850.0"
+      ],
+      "merchantFee": [
+        "10.0"
+      ],
+      "merchantReference": [
+        "1420",
+        "1421",
+        "7835",
+        "7862"
+      ],
+      "onusReference": [
+        "ONUS-TRNF-5573749873946-02122025-190001",
+        "ONUS-TRNF-5860542676671-12012026-154526",
+        "ONUS-TRNF-7234364699499-12012026-152040",
+        "ONUS-TRNF-7796982480538-02122025-190009"
+      ],
+      "providerReference": [
+        "41251202180030367449",
+        "41251202180032541995",
+        "ONUS-TRNF-5860542676671-12012026-154526",
+        "ONUS-TRNF-7234364699499-12012026-152040"
+      ],
+      "sessionId": [
+        "000027260112152137074971113709",
+        "000027260112154608079683785372",
+        "100033251202180031090492557498",
+        "100033251202180033828076708092"
+      ],
+      "accountNumber": [
+        "0760869014",
+        "2080828534",
+        "7064400726",
+        "8062551247"
+      ],
+      "paymentStatus": [
+        "SUCCESSFUL"
+      ],
+      "paymentChannel": [
+        "BANK_TRANSFER"
+      ],
+      "businessId": [
+        "8a86b73d-4cc9-42d6-ba8a-7c099335d62d"
+      ],
+      "rawNotification": [
+        "{\"id\":\"9e473096-eb27-4a65-82b9-6cfc6b319c5b\",\"type",
+        "{\"id\":\"b1076be2-9d37-45bc-8b66-99a51da2d575\",\"type",
+        "{\"id\":\"b2ce9ebe-c487-4269-b024-292b31c89a4a\",\"type",
+        "{\"id\":\"e687ba23-3ad0-4f42-a363-2b53f16a3684\",\"type"
+      ]
+    }
+  },
+  "payout_retry_records": {
+    "total_records": 7,
+    "fields": [
+      "ledgerId",
+      "maxRetries",
+      "merchantId",
+      "retryCount",
+      "transactionId"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "26511368"
+      ],
+      "ledgerId": [
+        "6978a7b3ebce1036ab1d43bc",
+        "6978a7d2ebce1036ab1d43c5",
+        "6979ff2c964fea89d8d55259",
+        "6979ff3f964fea89d8d55262"
+      ],
+      "transactionId": [
+        "0eb5b12e-caaa-498f-ab4d-f11d24ce83de",
+        "2c74c356-fc32-4fea-b1f0-d67b2a6b99e2",
+        "387e2f34-5cdb-4c37-8540-baa602205b3c",
+        "f1ad3b60-48bf-4779-8462-2f68a6bce4d4"
+      ],
+      "retryCount": [
+        "0"
+      ],
+      "maxRetries": [
+        "3"
+      ]
+    }
+  },
+  "payout_scheduler_entry": {
+    "total_records": 4,
+    "fields": [
+      "createdAt",
+      "entryDate",
+      "merchantId",
+      "scheduledPayoutDate",
+      "walletId"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "00054139",
+        "26511368"
+      ],
+      "walletId": [
+        "00054139",
+        "26511368"
+      ]
+    }
+  },
+  "payout_scheduler_process_entry": {
+    "total_records": 2,
+    "fields": [
+      "createdAt",
+      "entryDate"
+    ],
+    "sample_values": {}
+  },
+  "pos": {
+    "total_records": 53,
+    "fields": [
+      "accountHolderName",
+      "accountNo",
+      "address",
+      "bankCode",
+      "bankName",
+      "bankTransferCode",
+      "branchId",
+      "createDate",
+      "location",
+      "merchantId",
+      "posId",
+      "posName"
+    ],
+    "sample_values": {
+      "posId": [
+        "03704586",
+        "52325642",
+        "53853333",
+        "66737762"
+      ],
+      "posName": [
+        "POS-004",
+        "POS-005",
+        "POS-006",
+        "POS-007"
+      ],
+      "merchantId": [
+        "26511368",
+        "74466762"
+      ],
+      "bankName": [
+        "FCMB",
+        "OPAY"
+      ],
+      "accountNo": [
+        "0760869014",
+        "8062551247"
+      ],
+      "accountHolderName": [
+        "FOOD CONCEPTS PLC",
+        "TESLIM  AYANTOLA"
+      ],
+      "bankCode": [
+        "000003",
+        "100004"
+      ],
+      "bankTransferCode": [
+        "000003",
+        "100004"
+      ],
+      "location": [
+        "Ajose Adeogun",
+        "Akowonjo",
+        "Alapere Ketu",
+        "Alimosho"
+      ],
+      "address": [
+        "1 Kokumo Road (next to Mosolasi Bus Stop) off Ipaj",
+        "149 Akowonjo Road Egbeda",
+        "271A Ajose Adeogun St Victoria Island",
+        "Oando Filling Station Alapere Ketu"
+      ],
+      "status": [
+        "ACTIVE"
+      ],
+      "posQRCode": [
+        "qr-codes/pos__03704586_qrCode.png",
+        "qr-codes/pos__52325642_qrCode.png",
+        "qr-codes/pos__53853333_qrCode.png",
+        "qr-codes/pos__66737762_qrCode.png"
+      ],
+      "branchId": [
+        ""
+      ]
+    }
+  },
+  "reviews": {
+    "total_records": 3362,
+    "fields": [
+      "comment",
+      "createdDt",
+      "customerId",
+      "dealId",
+      "merchantId",
+      "rating",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "00042335",
+        "6926be196dcebd1ce4cd8cee",
+        "6929a7543a9d9ba73b97b52b",
+        "6938e429a011eae7d25f6f34"
+      ],
+      "customerId": [
+        "6938fe079146342d09fe6582",
+        "69394041a011eae7d25f6f8d",
+        "693b059e9146342d09fe6639",
+        "693c3c179146342d09fe6683"
+      ],
+      "rating": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "comment": [
+        "3rd review a deal",
+        "5th review direct payment ",
+        "First review",
+        "Second review"
+      ],
+      "dealId": [
+        "6938eb14931c10d3ba51f210"
+      ]
+    }
+  },
+  "rewards": {
+    "total_records": 2,
+    "fields": [
+      "createdAt",
+      "distributionType",
+      "endDate",
+      "isFreezed",
+      "merchantId",
+      "milestoneTarget",
+      "pointExpirationDays",
+      "rewardCap",
+      "rewardDistributed",
+      "rewardType",
+      "rules",
+      "startDate"
+    ],
+    "sample_values": {
+      "merchantId": [
+        "6926e8923a9d9ba73b97b472",
+        "6962b3dc3277d28961813e9d"
+      ],
+      "rewardType": [
+        "FIXED_POINTS"
+      ],
+      "rewardCap": [
+        "100000",
+        "20000"
+      ],
+      "rewardDistributed": [
+        "0"
+      ],
+      "distributionType": [
+        "INSTANT"
+      ],
+      "milestoneTarget": [
+        "1"
+      ],
+      "pointExpirationDays": [
+        "30",
+        "90"
+      ],
+      "status": [
+        "ACTIVE"
+      ],
+      "isFreezed": [
+        "False"
+      ]
+    }
+  },
+  "scheduler_locks": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "shedLock": {
+    "total_records": 2,
+    "fields": [
+      "lockUntil",
+      "lockedAt",
+      "lockedBy"
+    ],
+    "sample_values": {
+      "lockedBy": [
+        "ip-10-0-19-12.eu-west-1.compute.internal",
+        "ip-10-0-21-35.eu-west-1.compute.internal"
+      ]
+    }
+  },
+  "tokens": {
+    "total_records": 1,
+    "fields": [
+      "createdAt",
+      "expiresBefore",
+      "token",
+      "tokenType",
+      "updatedAt"
+    ],
+    "sample_values": {
+      "tokenType": [
+        "PAYONUS_ACCESS_TOKEN"
+      ],
+      "token": [
+        "eyJraWQiOiIxMGM5NDVmZC0zM2EwLTRhNjMtOTFiNC0wMjIyOT"
+      ]
+    }
+  },
+  "transaction_history": {
+    "total_records": 27566,
+    "fields": [
+      "amount",
+      "amountBrandWallet",
+      "amountByWallet",
+      "amountPaid",
+      "balanceAfterTransaction",
+      "balanceBeforeTransaction",
+      "beneficiaryAccountName",
+      "beneficiaryAccountNumber",
+      "branchName",
+      "brandPoints",
+      "businessImagePath",
+      "createdDt"
+    ],
+    "sample_values": {
+      "sourceId": [
+        "695fdb9e823b3d8784f90f52",
+        "696b8a0cfb7276fca3a3dd4d",
+        "696b8a13a914409c32d274e8",
+        "6970d0ae13b36fa274db5f9c"
+      ],
+      "transactionId": [
+        "16044358-9e15-4b42-8303-53983a91e139",
+        "3e6d801a-194f-4f63-9cad-bf22348f76ac",
+        "d6606c8c-54c4-4e89-86d0-7665c0b6304b",
+        "f98c7940-ccbf-4b76-aadb-12cf8318c02a"
+      ],
+      "transactionType": [
+        "CREDIT",
+        "DEBIT"
+      ],
+      "operationType": [
+        "PAY_OUT",
+        "SALES",
+        "SERVICE_FEE"
+      ],
+      "amount": [
+        "5400.0",
+        "7425.0",
+        "8000.0",
+        "830.0"
+      ],
+      "description": [
+        "Direct Sale to bimbo",
+        "Direct Sale to usman nura Baffa",
+        "Payout",
+        "Service Fee"
+      ],
+      "status": [
+        "FAILURE",
+        "PENDING",
+        "SUCCESSFUL"
+      ],
+      "customerId": [
+        "11758274",
+        "42881688",
+        "66822708",
+        "98809127"
+      ],
+      "customerName": [
+        "Ademola Sanu",
+        "Joseph ThankGod",
+        "bimbo",
+        "usman nura Baffa"
+      ],
+      "customerPhoneNo": [
+        "7042672738",
+        "8139232659",
+        "8140329847",
+        "8141504563"
+      ],
+      "customerEmail": [
+        "7042672738",
+        "8139232659",
+        "8141504563",
+        "thankgodj831@gmail.com"
+      ],
+      "merchantId": [
+        "00031747",
+        "26511368"
+      ],
+      "merchantName": [
+        "Chicken Republic",
+        "Tes Stores"
+      ],
+      "businessImagePath": [
+        "image/1764148126928_06540736.jpg",
+        "image/1766647578151_1ae3204e.jpg"
+      ],
+      "sourceTable": [
+        "merchant_wallet_ledger"
+      ],
+      "balanceBeforeTransaction": [
+        "0",
+        "33688643.2",
+        "33689473.2",
+        "48286196.0"
+      ],
+      "balanceAfterTransaction": [
+        "33688643.2",
+        "33696643.2",
+        "48291056",
+        "48291596"
+      ],
+      "trnType": [
+        "C",
+        "D"
+      ],
+      "isIncoming": [
+        "False",
+        "True"
+      ],
+      "isOutgoing": [
+        "False",
+        "True"
+      ],
+      "branchName": [
+        "Main Branch"
+      ],
+      "invoiceRefId": [
+        "695fdb9c6582caab724427ab",
+        "696b8a0b33916f6631b51746",
+        "696b8a13e1304e15fda88d3e",
+        "6970d0aeab72b27d3331f09a"
+      ],
+      "invoiceNo": [
+        "5c970292-12be-4421-8461-9057d075b21b",
+        "5f32f504-5660-4aa6-907d-2cb485c93366",
+        "6be73fa5-bec0-4ee4-a4ec-edefab21a3e2",
+        "79906089-04ad-4a93-bd13-a297bac501ba"
+      ],
+      "transactionReferenceId": [
+        "2070ef10-d2df-436b-84f8-56e8de975acf",
+        "2f89c34d-95b7-4b3a-930c-7fb8a933e816",
+        "7c4b8280-254f-4a56-9537-4e55396bb4d5",
+        "e8bdfaa6-33f9-421c-911d-004ace442512"
+      ],
+      "numoniTransactionRefId": [
+        "695fdb9c6582caab724427ab",
+        "696b8a0b33916f6631b51746",
+        "696b8a13e1304e15fda88d3e",
+        "6970d0aeab72b27d3331f09a"
+      ],
+      "transactionNo": [
+        "16044358-9e15-4b42-8303-53983a91e139",
+        "695fdb9e823b3d8784f90f52",
+        "d6606c8c-54c4-4e89-86d0-7665c0b6304b",
+        "f98c7940-ccbf-4b76-aadb-12cf8318c02a"
+      ],
+      "amountByWallet": [
+        "0.0",
+        "15750.0",
+        "5400.0",
+        "8000.0"
+      ],
+      "amountBrandWallet": [
+        "0.0"
+      ],
+      "numoniPoints": [
+        "0.0",
+        "5400.0",
+        "8000.0",
+        "8300.0"
+      ],
+      "brandPoints": [
+        "0.0"
+      ],
+      "amountPaid": [
+        "0.0",
+        "5400.0",
+        "8000.0",
+        "8300.0"
+      ],
+      "settledAmount": [
+        "14175.0",
+        "4860.0",
+        "7200.0",
+        "7470.0"
+      ],
+      "transactionCategory": [
+        "DIRECT_TRANSFER",
+        "PAY_OUT",
+        "SERVICE_FEE"
+      ],
+      "title": [
+        "Payout",
+        "Service Fee",
+        "bimbo",
+        "usman nura Baffa"
+      ],
+      "paymentViaType": [
+        "POS"
+      ],
+      "posId": [
+        "03704586",
+        "12093125",
+        "65180588",
+        "80082924"
+      ],
+      "posName": [
+        "POS-005",
+        "POS-022",
+        "POS-023",
+        "POS-040"
+      ],
+      "filterBy": [
+        "wallet"
+      ],
+      "walletType": [
+        "NUMONI_WALLET"
+      ],
+      "unitsPurchased": [
+        "0"
+      ],
+      "posLocation": [
+        "Bode Thomas",
+        "Idimu",
+        "Ikeja City Mall",
+        "Ikorodu"
+      ],
+      "fee": [
+        "10.0"
+      ],
+      "beneficiaryAccountNumber": [
+        "0760869014",
+        "8062551247"
+      ],
+      "beneficiaryAccountName": [
+        "FOOD CONCEPTS PLC",
+        "TESLIM  AYANTOLA"
+      ],
+      "customerImageUrl": [
+        "image/1766508825188_054fe9e8.jpg"
+      ]
+    }
+  },
+  "wallet": {
+    "total_records": 15,
+    "fields": [
+      "amount",
+      "createdDt"
+    ],
+    "sample_values": {
+      "amount": [
+        "0.0",
+        "450.0",
+        "4590.0",
+        "90.0"
+      ]
+    }
+  }
+}

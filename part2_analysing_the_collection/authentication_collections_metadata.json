@@ -1,0 +1,379 @@
+{
+  "account_deletion_request": {
+    "total_records": 118,
+    "fields": [
+      "isActive",
+      "reason",
+      "userId",
+      "userType"
+    ],
+    "sample_values": {
+      "userId": [
+        "695e08e239b638ff1bcffbc7",
+        "696110a058361bae99de0303"
+      ],
+      "reason": [
+        "No longer needed",
+        "None"
+      ],
+      "userType": [
+        "CUSTOMER"
+      ],
+      "isActive": [
+        "True"
+      ]
+    }
+  },
+  "audit_trail": {
+    "total_records": 32036,
+    "fields": [
+      "accessDate",
+      "action",
+      "changeLog",
+      "createdBy",
+      "createdTime",
+      "systemIp",
+      "type",
+      "userId",
+      "userName",
+      "userType"
+    ],
+    "sample_values": {
+      "userId": [
+        "69394041a011eae7d25f6f8d",
+        "69394512a011eae7d25f6f96"
+      ],
+      "userName": [
+        "tayantola.2@gmail.com_CUSTOMER",
+        "tayantola@gmail.com_CUSTOMER"
+      ],
+      "userType": [
+        "CUSTOMER",
+        "MERCHANT"
+      ],
+      "createdBy": [
+        "tayantola.2@gmail.com",
+        "tayantola@gmail.com"
+      ],
+      "type": [
+        "CUSTOMER",
+        "MERCHANT"
+      ],
+      "action": [
+        "LOGIN"
+      ],
+      "changeLog": [
+        "CUSTOMER User Login at username : tayantola.2@gmai",
+        "CUSTOMER User Login at username : tayantola@gmail."
+      ],
+      "systemIp": [
+        "AP3A.240905.015.A2",
+        "RP1A.200720.011"
+      ]
+    }
+  },
+  "authuser": {
+    "total_records": 10044,
+    "fields": [
+      "accountLocked",
+      "createdDt",
+      "deviceId",
+      "email",
+      "emailVerified",
+      "fcmToken",
+      "isDeleted",
+      "isInternal",
+      "lastLoginAt",
+      "name",
+      "password",
+      "phoneNumber"
+    ],
+    "sample_values": {
+      "userType": [
+        "CUSTOMER"
+      ],
+      "email": [
+        "9159419476",
+        "adebisiadebowale107@gmail.com"
+      ],
+      "userName": [
+        "9159419476_CUSTOMER",
+        "adebisiadebowale107@gmail.com_CUSTOMER"
+      ],
+      "password": [
+        "$2a$10$bMx7RXvvJrJfYqHonZaOpOQtdSIeyY8XWF9xbqn50UY",
+        "$2a$10$g8CVPOe2QdTScciULcnMTuesei3o0GejAXkyYSn5l.x"
+      ],
+      "phoneNumber": [
+        "8035651120",
+        "9159419476"
+      ],
+      "name": [
+        "ADEBOWALE ADEBISI",
+        "Juwon ogundipe"
+      ],
+      "status": [
+        "Active"
+      ],
+      "temporary": [
+        "False"
+      ],
+      "deviceId": [
+        "SP1A.210812.016",
+        "UP1A.231005.007"
+      ],
+      "fcmToken": [
+        "c_Pg7Y5WQbqNjY8BDzQMxA:APA91bHYVYv4k_QSYUWWispsOxa",
+        "fb1_IpiRROC72EJnodoGlw:APA91bGC1VROJyyFMnlHwUDi4gH"
+      ],
+      "accountLocked": [
+        "False"
+      ],
+      "phoneVerified": [
+        "False",
+        "True"
+      ],
+      "isDeleted": [
+        "0"
+      ],
+      "isInternal": [
+        "False"
+      ],
+      "emailVerified": [
+        "False"
+      ]
+    }
+  },
+  "id_seq": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "login_activities": {
+    "total_records": 11982,
+    "fields": [
+      "activityTime",
+      "activityType",
+      "deviceId",
+      "ipAddress",
+      "sessionId",
+      "successful",
+      "userAgent",
+      "userId",
+      "userType"
+    ],
+    "sample_values": {
+      "userId": [
+        "695f9add58361bae99ddfa2d",
+        "696103c63277d28961813301"
+      ],
+      "userType": [
+        "UNKNOWN"
+      ],
+      "activityType": [
+        "LOGIN"
+      ],
+      "deviceId": [
+        "SP1A.210812.016",
+        "TP1A.220624.014"
+      ],
+      "ipAddress": [
+        "unknown"
+      ],
+      "userAgent": [
+        "unknown"
+      ],
+      "sessionId": [
+        "814c0fbc-bc09-4710-a36f-3a8b85a4f26d",
+        "edb50c87-1283-4553-af05-7df392555abd"
+      ],
+      "successful": [
+        "True"
+      ]
+    }
+  },
+  "otp": {
+    "total_records": 15996,
+    "fields": [
+      "expiryTime",
+      "otp",
+      "otpType",
+      "userName"
+    ],
+    "sample_values": {
+      "userName": [
+        "7078721104",
+        "isiomatessy99@gmail.com_CUSTOMER"
+      ],
+      "otp": [
+        "503469",
+        "831415"
+      ],
+      "otpType": [
+        "EMAIL",
+        "MOBILE"
+      ],
+      "expiryTime": [
+        "1767300767865",
+        "1767301512270"
+      ]
+    }
+  },
+  "refresh_token_record": {
+    "total_records": 185,
+    "fields": [
+      "dateTime",
+      "token",
+      "type",
+      "userId",
+      "userName"
+    ],
+    "sample_values": {
+      "userId": [
+        "6926d063ae14289da2c1ca5f",
+        "69563e5bc2514dec0ff66fd0"
+      ],
+      "userName": [
+        "oluremz31@gmail.com_CUSTOMER",
+        "superadmin@numoni.io"
+      ],
+      "type": [
+        "CUSTOMER",
+        "NUMONI"
+      ],
+      "token": [
+        "eyJhbGciOiJIUzI1NiJ9.eyJpc0ludGVybmFsIjpmYWxzZSwic",
+        "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJTVVBFUl9BRE1JT"
+      ]
+    }
+  },
+  "refreshtoken": {
+    "total_records": 11621,
+    "fields": [
+      "expiresAt",
+      "expiryDate",
+      "isRevoked",
+      "issuedAt",
+      "refreshToken",
+      "userId",
+      "userName"
+    ],
+    "sample_values": {
+      "refreshToken": [
+        "06f3fb0e-99ea-4adf-be2a-7add698e54ab",
+        "4977ecbb-c0f6-40ad-aea0-989eca073c0e"
+      ],
+      "userName": [
+        "ademolaadelaja01@gmail.com_CUSTOMER",
+        "cornabi@gmail.com_CUSTOMER"
+      ],
+      "userId": [
+        "695e854a292404e440537f99",
+        "695e8581292404e440537fa3"
+      ],
+      "isRevoked": [
+        "False"
+      ]
+    }
+  },
+  "roles": {
+    "total_records": 6,
+    "fields": [
+      "createdDt",
+      "description",
+      "isActive",
+      "name",
+      "permissions"
+    ],
+    "sample_values": {
+      "name": [
+        "ROLE_CUSTOMER",
+        "ROLE_MERCHANT"
+      ],
+      "description": [
+        "Merchant user with access to merchant portal and b",
+        "Regular customer user with access to customer feat"
+      ],
+      "permissions": [
+        ""
+      ],
+      "isActive": [
+        "True"
+      ]
+    }
+  },
+  "signin_records": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "user_sessions": {
+    "total_records": 11982,
+    "fields": [
+      "deviceId",
+      "fcmToken",
+      "ipAddress",
+      "isActive",
+      "lastActivityTime",
+      "refreshToken",
+      "sessionEndTime",
+      "sessionId",
+      "sessionStartTime",
+      "userAgent",
+      "userId"
+    ],
+    "sample_values": {
+      "userId": [
+        "69660106096e53ffb5a57785",
+        "697212d7f9e6b8e69f192a0f"
+      ],
+      "sessionId": [
+        "6b419f8f-8574-45b9-a5c4-178a98269f91",
+        "fc535258-693f-4fa6-9673-9480245c95b9"
+      ],
+      "refreshToken": [
+        "2ee92970-1240-4e15-b3e8-333454943f36",
+        "c75f2a44-1b45-4069-a9c5-173ce98eb113"
+      ],
+      "deviceId": [
+        "0B00DC6E-7A99-43DF-A47E-BD2D7478CB90",
+        "DA52270A-67D0-4B2E-A19A-3F0C54F56707"
+      ],
+      "fcmToken": [
+        "dkpK7YGJTqCf95SBNnZte8:APA91bF-HM702lteHqSa_oMhDaG",
+        "fJuUYl1uLk4buVlwJWPV-W:APA91bEvGjgDFr17VtT3Y0zBS0Q"
+      ],
+      "ipAddress": [
+        "unknown"
+      ],
+      "userAgent": [
+        "unknown"
+      ],
+      "isActive": [
+        "False",
+        "True"
+      ]
+    }
+  },
+  "userDeviceDetail": {
+    "total_records": 10842,
+    "fields": [
+      "createdDt",
+      "deviceId",
+      "updatedDt",
+      "userId"
+    ],
+    "sample_values": {
+      "userId": [
+        "695fbf633277d28961812be7",
+        "6968f5fd0af4ca27073fe58c"
+      ],
+      "deviceId": [
+        "01E53F00-96F8-43B5-940B-51E063B0A614",
+        "DA01AEE1-4C1F-401F-9A9B-DB08411CDB22"
+      ]
+    }
+  }
+}

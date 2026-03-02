@@ -1,0 +1,12 @@
+# Requirements for BERT-based Database Router
+# Install with: pip install -r requirements_bert.txt
+
+# BERT sentence embeddings (lightweight model)
+sentence-transformers>=2.2.0
+
+# PyTorch (CPU version is sufficient for inference)
+torch>=2.0.0
+
+
+# Optional: For faster inference
+# accelerate>=0.20.0

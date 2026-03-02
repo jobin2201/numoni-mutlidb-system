@@ -1,0 +1,612 @@
+{
+  "customerDetails": {
+    "keywords": [
+      "customer",
+      "user",
+      "person",
+      "profile",
+      "name",
+      "email",
+      "phone"
+    ],
+    "fields": [
+      "name",
+      "email",
+      "phoneNo",
+      "userId"
+    ],
+    "description": "Main customer profile information"
+  },
+  "customer_wallet_ledger": {
+    "keywords": [
+      "wallet",
+      "balance",
+      "ledger",
+      "transaction",
+      "money",
+      "amount"
+    ],
+    "fields": [
+      "balance",
+      "amount",
+      "transactionType"
+    ],
+    "description": "Customer wallet transactions and balance"
+  },
+  "customerError": {
+    "keywords": [
+      "error",
+      "issue",
+      "problem",
+      "failure",
+      "exception"
+    ],
+    "fields": [
+      "errorMessage",
+      "errorCode"
+    ],
+    "description": "Customer-related system errors"
+  },
+  "customerlocation": {
+    "keywords": [
+      "location",
+      "address",
+      "city",
+      "state",
+      "region",
+      "place"
+    ],
+    "fields": [
+      "address",
+      "city",
+      "state"
+    ],
+    "description": "Customer location and address details"
+  },
+  "customer_load_money": {
+    "keywords": [
+      "load",
+      "topup",
+      "top up",
+      "add money",
+      "deposit",
+      "fund"
+    ],
+    "fields": [
+      "amount",
+      "status"
+    ],
+    "description": "Customer money loading/top-up records"
+  },
+  "customer_points_ledger": {
+    "keywords": [
+      "points",
+      "rewards",
+      "loyalty",
+      "earned",
+      "redeemed"
+    ],
+    "fields": [
+      "points",
+      "pointsBalance"
+    ],
+    "description": "Customer reward points ledger"
+  },
+  "customer_share_money": {
+    "keywords": [
+      "share",
+      "send",
+      "transfer",
+      "give money"
+    ],
+    "fields": [
+      "amount",
+      "recipientId"
+    ],
+    "description": "Customer money sharing/sending records"
+  },
+  "transaction_history": {
+    "keywords": [
+      "transaction",
+      "history",
+      "payment",
+      "purchase",
+      "order"
+    ],
+    "fields": [
+      "transactionId",
+      "amount",
+      "status"
+    ],
+    "description": "Transaction history records"
+  },
+  "wallet": {
+    "keywords": [
+      "wallet",
+      "balance",
+      "account"
+    ],
+    "fields": [
+      "balance",
+      "walletId"
+    ],
+    "description": "Wallet account information"
+  },
+  "tokens": {
+    "keywords": [
+      "token",
+      "auth",
+      "authentication",
+      "session"
+    ],
+    "fields": [
+      "token",
+      "userId"
+    ],
+    "description": "Authentication tokens"
+  },
+  "payment_otp_verification": {
+    "keywords": [
+      "otp",
+      "verification",
+      "code",
+      "verify"
+    ],
+    "fields": [
+      "otp",
+      "verified"
+    ],
+    "description": "OTP verification for payments"
+  },
+  "invoice": {
+    "keywords": [
+      "invoice",
+      "bill",
+      "receipt",
+      "payment"
+    ],
+    "fields": [
+      "invoiceId",
+      "amount"
+    ],
+    "description": "Invoice records"
+  },
+  "favourite_deal": {
+    "keywords": [
+      "favourite",
+      "favorite",
+      "liked",
+      "saved",
+      "bookmarked"
+    ],
+    "fields": [
+      "dealId",
+      "customerId"
+    ],
+    "description": "Customer favorite deals"
+  },
+  "initiative_orders": {
+    "keywords": [
+      "initiative order",
+      "initiative orders",
+      "initiative",
+      "order",
+      "invoice amount",
+      "merchant type"
+    ],
+    "fields": [
+      "merchantId",
+      "merchantType",
+      "invoiceAmount",
+      "merchantUserId",
+      "dealId"
+    ],
+    "description": "Customer initiative orders with merchant and invoice details"
+  },
+  "sponsored_deals": {
+    "keywords": [
+      "sponsored",
+      "promotion",
+      "ad",
+      "advertisement"
+    ],
+    "fields": [
+      "dealId",
+      "sponsor"
+    ],
+    "description": "Sponsored deal promotions"
+  },
+  "authuser": {
+    "keywords": [
+      "user details",
+      "user profile",
+      "user account",
+      "authentication user",
+      "auth user",
+      "user info",
+      "user information",
+      "authenticate",
+      "user credentials",
+      "user password",
+      "email address",
+      "phone number",
+      "user status",
+      "user name"
+    ],
+    "fields": [
+      "email",
+      "phoneNumber",
+      "password",
+      "name",
+      "accountLocked",
+      "emailVerified",
+      "lastLoginAt"
+    ],
+    "description": "Authentication users and user credentials"
+  },
+  "login_activities": {
+    "keywords": [
+      "login details",
+      "login activity",
+      "login activities",
+      "login history",
+      "login record",
+      "login event",
+      "signin activity",
+      "sign in activity",
+      "login attempt",
+      "user login",
+      "login info",
+      "login information",
+      "when user logged in"
+    ],
+    "fields": [
+      "userId",
+      "activityType",
+      "successful",
+      "deviceId",
+      "sessionId"
+    ],
+    "description": "User login activity records and history"
+  },
+  "signin_records": {
+    "keywords": [
+      "signin",
+      "sign in",
+      "signin records",
+      "sign in records",
+      "sign-in",
+      "signin event",
+      "sign in event"
+    ],
+    "fields": [
+      "userId",
+      "status",
+      "createdAt"
+    ],
+    "description": "User sign-in records and events"
+  },
+  "user_sessions": {
+    "keywords": [
+      "user sessions",
+      "sessions",
+      "active session",
+      "session",
+      "user session",
+      "session info",
+      "session information",
+      "current session",
+      "session status",
+      "session active"
+    ],
+    "fields": [
+      "sessionId",
+      "userId",
+      "isActive",
+      "sessionStartTime"
+    ],
+    "description": "User session records and status"
+  },
+  "userDeviceDetail": {
+    "keywords": [
+      "user device",
+      "device detail",
+      "device info",
+      "device information",
+      "user devices",
+      "device name",
+      "device id"
+    ],
+    "fields": [
+      "deviceId",
+      "userId"
+    ],
+    "description": "User device details and information"
+  },
+  "otp": {
+    "keywords": [
+      "otp",
+      "one time password",
+      "verification code",
+      "verification",
+      "one-time password",
+      "otp code",
+      "authentication otp",
+      "auth otp"
+    ],
+    "fields": [
+      "otp",
+      "otpType",
+      "expiryTime",
+      "userName"
+    ],
+    "description": "OTP and verification codes for authentication"
+  },
+  "refresh_token_record": {
+    "keywords": [
+      "refresh token",
+      "token refresh",
+      "refresh record",
+      "token record",
+      "refresh",
+      "token refresh record"
+    ],
+    "fields": [
+      "token",
+      "userId",
+      "expiryTime"
+    ],
+    "description": "Refresh token records and expiry"
+  },
+  "refreshtoken": {
+    "keywords": [
+      "refresh token",
+      "token",
+      "session token",
+      "refresh",
+      "token information",
+      "token status"
+    ],
+    "fields": [
+      "token",
+      "userId",
+      "isRevoked"
+    ],
+    "description": "Refresh tokens and session token management"
+  },
+  "roles": {
+    "keywords": [
+      "role",
+      "roles",
+      "permission",
+      "permissions",
+      "access",
+      "access control",
+      "role definition",
+      "role assignment",
+      "user role"
+    ],
+    "fields": [
+      "name",
+      "permissions"
+    ],
+    "description": "Role and permission definitions for access control"
+  },
+  "audit_trail": {
+    "keywords": [
+      "audit",
+      "audit trail",
+      "system activity",
+      "activity log",
+      "logs",
+      "audit log",
+      "system log",
+      "change log",
+      "action log",
+      "system action",
+      "user action",
+      "audit events"
+    ],
+    "fields": [
+      "action",
+      "changeLog",
+      "userId",
+      "createdTime",
+      "userName",
+      "type"
+    ],
+    "description": "Audit trail events and system activity logs"
+  },
+  "account_deletion_request": {
+    "keywords": [
+      "account deletion",
+      "delete account",
+      "account delete",
+      "deactivation",
+      "deactivate account",
+      "deletion request",
+      "account closure",
+      "remove account"
+    ],
+    "fields": [
+      "userId",
+      "status",
+      "reason"
+    ],
+    "description": "Account deletion requests and deactivation records"
+  },
+  "id_seq": {
+    "keywords": [
+      "sequence",
+      "id seq",
+      "counter"
+    ],
+    "fields": [
+      "name",
+      "seq"
+    ],
+    "description": "ID sequence counters"
+  },
+  "merchantDetails": {
+    "keywords": [
+      "merchant",
+      "business",
+      "shop",
+      "store",
+      "vendor",
+      "seller"
+    ],
+    "fields": [
+      "businessName",
+      "brandName",
+      "email"
+    ],
+    "description": "Main merchant business profile"
+  },
+  "bankInformation": {
+    "keywords": [
+      "bank",
+      "account",
+      "banking",
+      "account number",
+      "bank code"
+    ],
+    "fields": [
+      "bankname",
+      "accountNo",
+      "bankcode"
+    ],
+    "description": "Merchant bank account information"
+  },
+  "merchantlocation": {
+    "keywords": [
+      "location",
+      "address",
+      "city",
+      "state",
+      "region"
+    ],
+    "fields": [
+      "address",
+      "city",
+      "state"
+    ],
+    "description": "Merchant business location"
+  },
+  "merchant_wallet_ledger": {
+    "keywords": [
+      "wallet",
+      "ledger",
+      "balance",
+      "transaction"
+    ],
+    "fields": [
+      "balance",
+      "amount"
+    ],
+    "description": "Merchant wallet transactions"
+  },
+  "merchant_reward_points_ledger": {
+    "keywords": [
+      "points",
+      "rewards",
+      "loyalty"
+    ],
+    "fields": [
+      "points",
+      "balance"
+    ],
+    "description": "Merchant reward points"
+  },
+  "merchant_payout": {
+    "keywords": [
+      "payout",
+      "withdrawal",
+      "settlement",
+      "disbursement"
+    ],
+    "fields": [
+      "amount",
+      "status"
+    ],
+    "description": "Merchant payout/withdrawal records"
+  },
+  "deals": {
+    "keywords": [
+      "deal",
+      "offer",
+      "discount",
+      "promotion",
+      "sale"
+    ],
+    "fields": [
+      "dealId",
+      "title",
+      "description"
+    ],
+    "description": "Merchant deals and offers"
+  },
+  "reviews": {
+    "keywords": [
+      "review",
+      "rating",
+      "feedback",
+      "comment"
+    ],
+    "fields": [
+      "rating",
+      "comment"
+    ],
+    "description": "Merchant reviews and ratings"
+  },
+  "pos": {
+    "keywords": [
+      "pos",
+      "terminal",
+      "device",
+      "machine"
+    ],
+    "fields": [
+      "posId",
+      "terminalId"
+    ],
+    "description": "POS terminal devices"
+  },
+  "notifications": {
+    "keywords": [
+      "notification",
+      "alert",
+      "message",
+      "notify"
+    ],
+    "fields": [
+      "message",
+      "type"
+    ],
+    "description": "Merchant notifications"
+  },
+  "category": {
+    "keywords": [
+      "category",
+      "type",
+      "classification"
+    ],
+    "fields": [
+      "categoryName",
+      "categoryId"
+    ],
+    "description": "Business categories"
+  },
+  "rewards": {
+    "keywords": [
+      "rewards",
+      "incentive",
+      "bonus"
+    ],
+    "fields": [
+      "rewardId",
+      "amount"
+    ],
+    "description": "Reward programs"
+  }
+}

@@ -1,0 +1,418 @@
+[
+    {
+        "db_name": "numoni_customer",
+        "file_name": "brand_wallet.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customerDetails.json",
+        "status": "VALID",
+        "summary": "JSON List (8660 records), first record keys: ['_id', 'name', 'email', 'userId', 'phoneNumber', 'qrCode', 'createdDt', 'isEmailVerified']",
+        "error": null,
+        "file_size": 5731188
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customerError.json",
+        "status": "VALID",
+        "summary": "JSON List (2462 records), first record keys: ['_id', 'customerId', 'errorTypeEnum', 'errorMessage', 'retries', 'maxRetries', 'resolved', 'comment']",
+        "error": null,
+        "file_size": 1148155
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customer_load_money.json",
+        "status": "VALID",
+        "summary": "JSON List (13715 records), first record keys: ['_id', 'userId', 'customerId', 'transactionAmount', 'fee', 'bonusAmount', 'totalAmount', 'status']",
+        "error": null,
+        "file_size": 22840849
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customer_points_ledger.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customer_share_money.json",
+        "status": "VALID",
+        "summary": "JSON List (88 records), first record keys: ['_id', 'sentUserId', 'sentCustomerId', 'receiveUserId', 'receiveCustomerId', 'transactionAmount', 'phoneNumber', 'paymentReferenceToken']",
+        "error": null,
+        "file_size": 43182
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customer_sharepoint_requests.json",
+        "status": "VALID",
+        "summary": "JSON List (24 records), first record keys: ['_id', 'userName', 'referCode', 'referId', 'refTransactionId', 'smsText', 'phoneNumber', 'createdAt']",
+        "error": null,
+        "file_size": 15232
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customer_wallet_ledger.json",
+        "status": "VALID",
+        "summary": "JSON List (35453 records), first record keys: ['_id', 'userId', 'customerId', 'type', 'transactionNo', 'numoni_transaction_ref_id', 'transactionId', 'trn_type']",
+        "error": null,
+        "file_size": 37295949
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "customerlocation.json",
+        "status": "VALID",
+        "summary": "JSON List (40 records), first record keys: ['_id', 'customerId', 'homeNumber', 'latitude', 'longitude', 'street', 'address', 'city']",
+        "error": null,
+        "file_size": 21277
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "favourite_deal.json",
+        "status": "VALID",
+        "summary": "JSON List (83 records), first record keys: ['_id', 'dealId', 'customerId', 'category', 'createdDt', '_class']",
+        "error": null,
+        "file_size": 27464
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "initiative_orders.json",
+        "status": "VALID",
+        "summary": "JSON List (10108 records), first record keys: ['_id', 'userId', 'paymentReferenceToken', 'dealId', 'merchantUserId', 'merchantId', 'customerUserId', 'customerId']",
+        "error": null,
+        "file_size": 9560456
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "invoice.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "merchant_payment_details.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "order_seqNo.json",
+        "status": "VALID",
+        "summary": "JSON List (1 records), first record keys: ['_id', 'seqNo', 'prefix', 'updatedDt', '_class']",
+        "error": null,
+        "file_size": 251
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "pay_on_us_notifications.json",
+        "status": "VALID",
+        "summary": "JSON List (10887 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']",
+        "error": null,
+        "file_size": 16209581
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "payment_otp_verification.json",
+        "status": "VALID",
+        "summary": "JSON List (289 records), first record keys: ['_id', 'otp', 'phoneNumber', 'expiryTime', 'token', 'status', 'type', 'createdDt']",
+        "error": null,
+        "file_size": 167673
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "shedLock.json",
+        "status": "VALID",
+        "summary": "JSON List (1 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']",
+        "error": null,
+        "file_size": 254
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "sponsored_deals.json",
+        "status": "VALID",
+        "summary": "JSON List (4 records), first record keys: ['_id', 'heading', 'description', 'dealId', 'backgroundImage', 'isActive', 'createdAt', 'updatedAt']",
+        "error": null,
+        "file_size": 1824
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "tokens.json",
+        "status": "VALID",
+        "summary": "JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']",
+        "error": null,
+        "file_size": 1180
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "top_up_status.json",
+        "status": "VALID",
+        "summary": "JSON List (8102 records), first record keys: ['_id', 'onusReferenceId', 'numoni_ref_id', 'status', 'createdDt', '_class']",
+        "error": null,
+        "file_size": 2788908
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "transaction_history.json",
+        "status": "VALID",
+        "summary": "JSON List (35372 records), first record keys: ['_id', 'customerId', 'customerUserId', 'sourceTransactionId', 'transactionReferenceId', 'transactionName', 'transactionCategory', 'walletType']",
+        "error": null,
+        "file_size": 57059424
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "transaction_session.json",
+        "status": "VALID",
+        "summary": "JSON List (10124 records), first record keys: ['_id', 'initiativeRefId', 'verificationId', 'invoiceNo', 'transactionId', 'type', 'sessionId', 'createdDt']",
+        "error": null,
+        "file_size": 5495183
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "wallet.json",
+        "status": "VALID",
+        "summary": "JSON List (8660 records), first record keys: ['_id', 'amount', 'amountOnHold', 'version', 'updatedDt', 'createdDt', '_class']",
+        "error": null,
+        "file_size": 2620377
+    },
+    {
+        "db_name": "numoni_customer",
+        "file_name": "wallet_adjust_management.json",
+        "status": "VALID",
+        "summary": "JSON List (243 records), first record keys: ['_id', 'walletId', 'userId', 'customerId', 'actualAmount', 'adjustBefore', 'adjustAfter', 'transactionAmount']",
+        "error": null,
+        "file_size": 161514
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "adjustmentpointandbalance.json",
+        "status": "VALID",
+        "summary": "JSON List (4 records), first record keys: ['_id', 'walletId', 'balance', 'reason', 'adminId', 'walletType', '_class']",
+        "error": null,
+        "file_size": 1259
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "bankInformation.json",
+        "status": "VALID",
+        "summary": "JSON List (112 records), first record keys: ['_id', 'merchantId', 'bankname', 'bankcode', 'accountNo', 'accountHolderName', 'bankTransferCode', 'primary']",
+        "error": null,
+        "file_size": 65106
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "businessimage.json",
+        "status": "VALID",
+        "summary": "JSON List (385 records), first record keys: ['_id', 'userId', 'image', 'createdDt', 'updatedDt', '_class']",
+        "error": null,
+        "file_size": 141397
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "category.json",
+        "status": "VALID",
+        "summary": "JSON List (14 records), first record keys: ['_id', 'name', 'tip_amount', '_class']",
+        "error": null,
+        "file_size": 2638
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "deal_status.json",
+        "status": "VALID",
+        "summary": "JSON List (1 records), first record keys: ['_id', 'dealId', 'status', 'updatedBy', 'updatedAt', '_class']",
+        "error": null,
+        "file_size": 313
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "dealimage.json",
+        "status": "VALID",
+        "summary": "JSON List (19 records), first record keys: ['_id', 'dealId', 'imagePath', '_class']",
+        "error": null,
+        "file_size": 4506
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "deals.json",
+        "status": "VALID",
+        "summary": "JSON List (9 records), first record keys: ['_id', 'userId', 'name', 'description', 'dealType', 'availableStock', 'initialPrice', 'discount']",
+        "error": null,
+        "file_size": 8144
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "file_mapping.json",
+        "status": "VALID",
+        "summary": "JSON List (590 records), first record keys: ['_id', 'tempUrl', 'objectKey', 'presignedUrl', 'originalFileName', 'contentType', 'fileSize', 'uploadedBy']",
+        "error": null,
+        "file_size": 1244772
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchantDetails.json",
+        "status": "VALID",
+        "summary": "JSON List (116 records), first record keys: ['_id', 'email', 'businessImagePath', 'businessPhoneNo', 'businessName', 'brandName', 'registeredBusiness', 'category']",
+        "error": null,
+        "file_size": 153640
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchant_payout.json",
+        "status": "VALID",
+        "summary": "JSON List (6 records), first record keys: ['_id', 'merchantId', 'payoutDate', 'status', 'createdAt', 'updatedAt']",
+        "error": null,
+        "file_size": 2049
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchant_payout_initiatives.json",
+        "status": "VALID",
+        "summary": "JSON List (2 records), first record keys: ['_id', 'merchantId', 'merchantIdUserId', 'paymentReferenceToken', 'type', 'merchantTypes', 'beneficiaryBankCode', 'beneficiaryAccountNumber']",
+        "error": null,
+        "file_size": 1341
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchant_reward_points_ledger.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchant_wallet_ledger.json",
+        "status": "VALID",
+        "summary": "JSON List (27565 records), first record keys: ['_id', 'merchantId', 'customerId', 'invoiceRefId', 'invoiceNo', 'type', 'numoni_transaction_ref_id', 'transactionNo']",
+        "error": null,
+        "file_size": 37676096
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "merchantlocation.json",
+        "status": "VALID",
+        "summary": "JSON List (112 records), first record keys: ['_id', 'userId', 'storeNo', 'address', 'street', 'city', 'country', 'latitude']",
+        "error": null,
+        "file_size": 59491
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "nigeria_regions.json",
+        "status": "VALID",
+        "summary": "JSON List (774 records), first record keys: ['_id', 'region', 'state', 'lga', '_class']",
+        "error": null,
+        "file_size": 168497
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "notifications.json",
+        "status": "VALID",
+        "summary": "JSON List (47029 records), first record keys: ['_id', 'title', 'description', 'userId', 'usertype', 'read', 'createdDt', 'updatedDt']",
+        "error": null,
+        "file_size": 22841356
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "pay_out_notification.json",
+        "status": "VALID",
+        "summary": "JSON List (6638 records), first record keys: ['_id', 'type', 'currency', 'transactionAmount', 'merchantFee', 'merchantReference', 'onusReference', 'providerReference']",
+        "error": null,
+        "file_size": 8814567
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "payout_retry_records.json",
+        "status": "VALID",
+        "summary": "JSON List (7 records), first record keys: ['_id', 'merchantId', 'ledgerId', 'transactionId', 'retryCount', 'maxRetries', '_class']",
+        "error": null,
+        "file_size": 2285
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "payout_scheduler_entry.json",
+        "status": "VALID",
+        "summary": "JSON List (4 records), first record keys: ['_id', 'merchantId', 'walletId', 'entryDate', 'scheduledPayoutDate', 'createdAt', '_class']",
+        "error": null,
+        "file_size": 1691
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "payout_scheduler_process_entry.json",
+        "status": "VALID",
+        "summary": "JSON List (2 records), first record keys: ['_id', 'entryDate', 'createdAt', '_class']",
+        "error": null,
+        "file_size": 587
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "pos.json",
+        "status": "VALID",
+        "summary": "JSON List (53 records), first record keys: ['_id', 'posId', 'posName', 'merchantId', 'bankName', 'accountNo', 'accountHolderName', 'bankCode']",
+        "error": null,
+        "file_size": 37067
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "reviews.json",
+        "status": "VALID",
+        "summary": "JSON List (3362 records), first record keys: ['_id', 'merchantId', 'customerId', 'rating', 'comment', 'createdDt', 'updatedDt', '_class']",
+        "error": null,
+        "file_size": 1359602
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "rewards.json",
+        "status": "VALID",
+        "summary": "JSON List (2 records), first record keys: ['_id', 'merchantId', 'rewardType', 'rules', 'rewardCap', 'rewardDistributed', 'distributionType', 'milestoneTarget']",
+        "error": null,
+        "file_size": 1632
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "scheduler_locks.json",
+        "status": "VALID",
+        "summary": "JSON List (Empty list)",
+        "error": null,
+        "file_size": 2
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "shedLock.json",
+        "status": "VALID",
+        "summary": "JSON List (2 records), first record keys: ['_id', 'lockUntil', 'lockedAt', 'lockedBy']",
+        "error": null,
+        "file_size": 482
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "tokens.json",
+        "status": "VALID",
+        "summary": "JSON List (1 records), first record keys: ['_id', 'tokenType', 'token', 'expiresBefore', 'createdAt', 'updatedAt', '_class']",
+        "error": null,
+        "file_size": 1180
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "transaction_history.json",
+        "status": "VALID",
+        "summary": "JSON List (27566 records), first record keys: ['_id', 'sourceId', 'transactionId', 'transactionType', 'operationType', 'amount', 'description', 'status']",
+        "error": null,
+        "file_size": 50455794
+    },
+    {
+        "db_name": "numoni_merchant",
+        "file_name": "wallet.json",
+        "status": "VALID",
+        "summary": "JSON List (15 records), first record keys: ['_id', 'amount', 'createdDt', '_class']",
+        "error": null,
+        "file_size": 2750
+    }
+]

@@ -1,0 +1,1347 @@
+{
+  "brand_wallet": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "customer_load_money": {
+    "total_records": 13715,
+    "fields": [
+      "accountName",
+      "accountNumber",
+      "bankName",
+      "bonusAmount",
+      "customerId",
+      "fee",
+      "onusReference",
+      "reference",
+      "retryCount",
+      "sessionId",
+      "status",
+      "statusUpdateData"
+    ],
+    "sample_values": {
+      "userId": [
+        "6960f6943277d2896181320e",
+        "6960f7cd3277d2896181322e",
+        "6960f8613277d28961813242",
+        "6960f8a558361bae99de01d8"
+      ],
+      "customerId": [
+        "03880231",
+        "13752809",
+        "17357941",
+        "97572645"
+      ],
+      "transactionAmount": [
+        "3000.0",
+        "5000.0",
+        "6000.0",
+        "7000.0"
+      ],
+      "fee": [
+        "0.0",
+        "50.0"
+      ],
+      "bonusAmount": [
+        "150.0",
+        "250.0",
+        "300.0",
+        "350.0"
+      ],
+      "totalAmount": [
+        "3150.0",
+        "5250.0",
+        "6300.0",
+        "7350.0"
+      ],
+      "status": [
+        "EXPIRED",
+        "SUCCESSFUL"
+      ],
+      "accountName": [
+        "Abegunrin Julius Ayodele",
+        "Agu Chijioke",
+        "Jeremiah Ajala",
+        "Joshua Momoh"
+      ],
+      "bankName": [
+        "Globus Bank"
+      ],
+      "accountNumber": [
+        "0728441598",
+        "0766351555",
+        "0774498544",
+        "0787304970"
+      ],
+      "onusReference": [
+        "ONUS-NUB-2941858340424-09012026-134423",
+        "ONUS-NUB-4564574534635-09012026-134544",
+        "ONUS-NUB-5175723430841-09012026-134753",
+        "ONUS-NUB-8859116117411-09012026-133804"
+      ],
+      "reference": [
+        "4956",
+        "4962",
+        "4967",
+        "4969"
+      ],
+      "sessionId": [
+        "000016260109135853001296608072",
+        "090267260109130949493101156276",
+        "090405260109135148616747419060",
+        "ETZ-09FG2601121321310774YB1HB"
+      ],
+      "statusUpdateData": [
+        "{\"_id\":\"69802d31ae29400db9e32221\",\"id\":null,\"type\"",
+        "{\"_id\":\"698061f3ae29400db9e3227d\",\"id\":null,\"type\""
+      ],
+      "retryCount": [
+        "0",
+        "3"
+      ]
+    }
+  },
+  "customer_points_ledger": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "customer_share_money": {
+    "total_records": 88,
+    "fields": [
+      "createDate",
+      "createdDt",
+      "paymentReferenceToken",
+      "phoneNumber",
+      "receiveCustomerId",
+      "receiveUserId",
+      "sentCustomerId",
+      "sentUserId",
+      "status",
+      "transactionAmount",
+      "type"
+    ],
+    "sample_values": {
+      "sentUserId": [
+        "6938fe079146342d09fe6582",
+        "693907f49146342d09fe6592",
+        "69394041a011eae7d25f6f8d",
+        "69399954a011eae7d25f6fbe"
+      ],
+      "sentCustomerId": [
+        "00017927",
+        "00020468",
+        "00034882",
+        "00057684"
+      ],
+      "receiveUserId": [
+        "6938e31c9146342d09fe6550",
+        "693907f49146342d09fe6592",
+        "69394512a011eae7d25f6f96",
+        "693946a79146342d09fe65cb"
+      ],
+      "receiveCustomerId": [
+        "00011037",
+        "00020468",
+        "00036114",
+        "00036519"
+      ],
+      "transactionAmount": [
+        "200.0",
+        "500.0",
+        "530.0",
+        "600.0"
+      ],
+      "phoneNumber": [
+        "8033299622",
+        "8062001100",
+        "8086004119",
+        "9052138575"
+      ],
+      "paymentReferenceToken": [
+        "318f2f7a-6364-44e1-8b08-7d3e4f795067",
+        "91306a4e-d835-485d-8805-7f97f70462a6",
+        "9f8547c9-c7ff-42fb-9ed1-038efca23914",
+        "d47685f7-1e45-48e8-9ee9-4fbb3cb3c507"
+      ],
+      "type": [
+        "NonRegister",
+        "Register"
+      ],
+      "status": [
+        "Completed",
+        "Pending"
+      ],
+      "createDate": [
+        "08-01-2026",
+        "10-12-2025",
+        "15-12-2025",
+        "22-12-2025"
+      ]
+    }
+  },
+  "customer_sharepoint_requests": {
+    "total_records": 24,
+    "fields": [
+      "createdAt",
+      "phoneNumber",
+      "refTransactionId",
+      "referCode",
+      "referId",
+      "smsText",
+      "userName"
+    ],
+    "sample_values": {
+      "userName": [
+        "dejod83555@crsay.com_CUSTOMER",
+        "francis.ekeng@gmail.com_CUSTOMER",
+        "tayantola.2@gmail.com_CUSTOMER",
+        "tayantola@gmail.com_CUSTOMER"
+      ],
+      "referCode": [
+        "Numoni_6939025b83c441433c7ff808_00017927",
+        "Numoni_6939053283c441433c7ff80f_00017927",
+        "Numoni_69390c8483c441433c7ff81d_00020468",
+        "Numoni_693941a983c441433c7ff838_00034882"
+      ],
+      "referId": [
+        "00017927",
+        "00020468",
+        "00034882",
+        "00057684"
+      ],
+      "refTransactionId": [
+        "6939025b83c441433c7ff808",
+        "6939053283c441433c7ff80f",
+        "69390c8483c441433c7ff81d",
+        "693941a983c441433c7ff838"
+      ],
+      "smsText": [
+        "You've received  200.00 nuMoni points from Teslim ",
+        "You've received  300.00 nuMoni points from Teslim ",
+        "You've received  500.00 nuMoni points from Teslim ",
+        "You've received  600.00 nuMoni points from Teslim "
+      ],
+      "phoneNumber": [
+        "8033299622",
+        "8062001100",
+        "8086004120",
+        "9041790535"
+      ]
+    }
+  },
+  "customer_wallet_ledger": {
+    "total_records": 35453,
+    "fields": [
+      "after_balance",
+      "amount",
+      "balance_amount",
+      "before_balance",
+      "createdDt",
+      "customerId",
+      "fee",
+      "isBrandPointsEarned",
+      "merchantId",
+      "merchantType",
+      "numoni_transaction_ref_id",
+      "posId"
+    ],
+    "sample_values": {
+      "userId": [
+        "695e4f8339b638ff1bcffcd9",
+        "695e5081292404e440537d81",
+        "695e508e39b638ff1bcffce1",
+        "695e519139b638ff1bcffcf6"
+      ],
+      "customerId": [
+        "15477602",
+        "28407375",
+        "28411222",
+        "65454496"
+      ],
+      "type": [
+        "BONUS",
+        "LOAD_POINTS",
+        "PURCHASE",
+        "SIGN_UP_BONUS"
+      ],
+      "transactionNo": [
+        "ONUS-NUB-1107064851443-07012026-133532",
+        "ONUS-NUB-6435631391421-07012026-132139",
+        "a83ec15b-a77e-4113-b2ae-e59abda28dbc",
+        "c8917d4b-1e85-44f0-a9f4-ab73ee58d98c"
+      ],
+      "numoni_transaction_ref_id": [
+        "695e4fd47a5b761f9af9653c",
+        "695e5315c86bdfb260a7c19d",
+        "BONUS-28407375-1767788675236",
+        "BONUS-28411222-1767788688196"
+      ],
+      "transactionId": [
+        "090267260107122221423000537850",
+        "100004260107123740149403632403",
+        "a83ec15b-a77e-4113-b2ae-e59abda28dbc",
+        "c8917d4b-1e85-44f0-a9f4-ab73ee58d98c"
+      ],
+      "trn_type": [
+        "C",
+        "D"
+      ],
+      "status": [
+        "SUCCESSFUL"
+      ],
+      "senderName": [
+        "ABIODUN LUKMON ADEKANMBI",
+        "KOFOWOROLA HELEN ODELEYE",
+        "NUMONI",
+        "OVIE JOEL OMOGHENE"
+      ],
+      "senderBankName": [
+        "First Bank of Nigeria",
+        "Kuda Microfinance Bank",
+        "NUMONI_WALLET",
+        "etz"
+      ],
+      "senderBankAccountNo": [
+        "2000537850",
+        "3101034433",
+        "7052578847",
+        "7086451483"
+      ],
+      "fee": [
+        "50.0"
+      ],
+      "trn_in_amount": [
+        "250.0",
+        "3000.0",
+        "4000.0",
+        "5000.0"
+      ],
+      "after_balance": [
+        "3000.0",
+        "7000.0",
+        "8000.0",
+        "8250.0"
+      ],
+      "before_balance": [
+        "0.0",
+        "3000.0",
+        "7000.0",
+        "8000.0"
+      ],
+      "balance_amount": [
+        "3000.0",
+        "7000.0",
+        "8000.0",
+        "8250.0"
+      ],
+      "transactionReferenceId": [
+        "64999c2b-111c-4d15-8b6f-29aac065558b",
+        "97d76219-d788-45c7-87d6-9abc8b8ae1cd",
+        "a83ec15b-a77e-4113-b2ae-e59abda28dbc",
+        "c8917d4b-1e85-44f0-a9f4-ab73ee58d98c"
+      ],
+      "merchantType": [
+        "MERCHANT"
+      ],
+      "wallet_type": [
+        "NUMONI_WALLET"
+      ],
+      "isBrandPointsEarned": [
+        "False"
+      ],
+      "totalBrandPointsEarned": [
+        "0.0"
+      ],
+      "merchantId": [
+        "26511368"
+      ],
+      "sessionId": [
+        "0571c679-447b-4386-b97d-dbf3f5c3e1fa",
+        "1584e6ae-7849-4346-9850-3e2ca00c3dff",
+        "26dd69ae-e3f9-4040-9e09-4e667f49a8d0",
+        "38d5b518-e24f-4343-9a50-7517d832e126"
+      ],
+      "trn_out_amount": [
+        "13950.0",
+        "2000.0",
+        "7200.0",
+        "8000.0"
+      ],
+      "posId": [
+        "03704586",
+        "33979703",
+        "36646370",
+        "37933010"
+      ],
+      "amount": [
+        "7300.0"
+      ]
+    }
+  },
+  "customerDetails": {
+    "total_records": 8660,
+    "fields": [
+      "createdDt",
+      "email",
+      "isEmailVerified",
+      "isPhoneVerified",
+      "isSignupBonusReleased",
+      "kycData",
+      "kycStatus",
+      "name",
+      "notifications",
+      "phoneNumber",
+      "preferences",
+      "profilePicture"
+    ],
+    "sample_values": {
+      "name": [
+        "Abayomi Temitope",
+        "Adeniran Samson Oluwadamilare",
+        "Ayinkealagbo",
+        "Chinwendu Nwachukwu"
+      ],
+      "email": [
+        "7033088363",
+        "7082739602",
+        "chinwenducelestina51@gmail.com",
+        "talesmariam780@gmail.com"
+      ],
+      "userId": [
+        "69612b7858361bae99de0444",
+        "69612c1c58361bae99de044d",
+        "696a4f96f9881cb7c9a0789f",
+        "696a502e0af4ca27073feee3"
+      ],
+      "phoneNumber": [
+        "7033088363",
+        "7044346496",
+        "7082739602",
+        "9154164416"
+      ],
+      "qrCode": [
+        "qr-codes/7033088363_CUSTOMER_qrCode.png",
+        "qr-codes/7082739602_CUSTOMER_qrCode.png",
+        "qr-codes/chinwenducelestina51@gmail.com_CUSTOMER_q",
+        "qr-codes/talesmariam780@gmail.com_CUSTOMER_qrCode."
+      ],
+      "isEmailVerified": [
+        "False"
+      ],
+      "isPhoneVerified": [
+        "False",
+        "True"
+      ],
+      "switchAccountEnabled": [
+        "False"
+      ],
+      "isSignupBonusReleased": [
+        "False",
+        "True"
+      ],
+      "profilePicture": [
+        "",
+        "image/1765471565267_681f6805.jpg",
+        "image/1765795384448_8b533bd4.jpg",
+        "image/1767980604203_30c35a96.jpg"
+      ],
+      "kycStatus": [
+        "approved"
+      ],
+      "kycData": [
+        "{\"timestamp\":\"2025-12-15T10:51:30.250Z\",\"event\":\"v",
+        "{\"timestamp\":\"2026-01-09T17:24:56.884Z\",\"event\":\"v",
+        "{\"timestamp\":\"2026-01-10T13:23:32.755Z\",\"event\":\"v"
+      ]
+    }
+  },
+  "customerError": {
+    "total_records": 2462,
+    "fields": [
+      "comment",
+      "createdDt",
+      "customerId",
+      "errorMessage",
+      "errorTypeEnum",
+      "maxRetries",
+      "resolved",
+      "retries",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "customerId": [
+        "00025038",
+        "00053733",
+        "00070972",
+        "90707492"
+      ],
+      "errorTypeEnum": [
+        "SIGNUP_BONUS"
+      ],
+      "errorMessage": [
+        "Customer not found",
+        "No signup bonus available",
+        "Pending signup bonus processing"
+      ],
+      "retries": [
+        "0",
+        "5"
+      ],
+      "maxRetries": [
+        "5"
+      ],
+      "resolved": [
+        "False",
+        "True"
+      ],
+      "comment": [
+        "Created by admin request",
+        "Signup bonus already found in transaction history",
+        "Signup bonus successfully added to wallet"
+      ]
+    }
+  },
+  "customerlocation": {
+    "total_records": 40,
+    "fields": [
+      "address",
+      "city",
+      "country",
+      "createdDt",
+      "customerId",
+      "homeNumber",
+      "isDefault",
+      "latitude",
+      "longitude",
+      "street",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "customerId": [
+        "6938fe079146342d09fe6582",
+        "693c327d9146342d09fe6677",
+        "693c3c179146342d09fe6683",
+        "695cd802292404e440537b15"
+      ],
+      "homeNumber": [
+        "19",
+        "25",
+        "4",
+        "6"
+      ],
+      "latitude": [
+        "6.5724294",
+        "6.5724544",
+        "6.6414809",
+        "6.6580652"
+      ],
+      "longitude": [
+        "3.2463608",
+        "3.2808408",
+        "3.3477283",
+        "3.3477511"
+      ],
+      "street": [
+        "Abiola Olaniyan crescent,unity estate",
+        "Alh. Ganiyu Salami St",
+        "Joseph ogunleye",
+        "Sunday Saidi Street"
+      ],
+      "address": [
+        "18, Ajijola anobi street, Lagos",
+        "3, CCJV+R79, CCJV+R79, Lagos",
+        "4, Sunday Saidi Street, Lagos",
+        "6, Joseph ogunleye, Lagos"
+      ],
+      "city": [
+        "Abeokuta, Ogun State",
+        "Akute",
+        "Lagos",
+        "Lagos state"
+      ],
+      "country": [
+        "Nigeria"
+      ],
+      "isDefault": [
+        "False"
+      ]
+    }
+  },
+  "favourite_deal": {
+    "total_records": 83,
+    "fields": [
+      "category",
+      "createdAt",
+      "createdDt",
+      "customerId",
+      "dealId",
+      "merchantId",
+      "merchantName"
+    ],
+    "sample_values": {
+      "dealId": [
+        "6938eb14931c10d3ba51f210"
+      ],
+      "customerId": [
+        "69394041a011eae7d25f6f8d",
+        "69394512a011eae7d25f6f96",
+        "72591161",
+        "84139432"
+      ],
+      "category": [
+        "Transportation"
+      ],
+      "merchantId": [
+        "693165293a9d9ba73b97b631",
+        "6936b844ec24051363acd392",
+        "69493410ffae763a2fdaacd7",
+        "694ce3acad01950a1e51e8c1"
+      ],
+      "merchantName": [
+        "Beauty and Store",
+        "Chicken Republic",
+        "JARA STORES",
+        "PRESTIGE SUPERSTORES  (AIKHOSHOL RESOURCES LIMITED"
+      ]
+    }
+  },
+  "initiative_orders": {
+    "total_records": 10108,
+    "fields": [
+      "amountBrandWallet",
+      "amountByWallet",
+      "createdDt",
+      "customerId",
+      "customerUserId",
+      "dealId",
+      "invoiceAmount",
+      "merchantId",
+      "merchantType",
+      "merchantUserId",
+      "paymentReferenceToken",
+      "paymentViaType"
+    ],
+    "sample_values": {
+      "userId": [
+        "6938fe079146342d09fe6582",
+        "69394041a011eae7d25f6f8d",
+        "69394512a011eae7d25f6f96",
+        "693c2b55a011eae7d25f7040"
+      ],
+      "paymentReferenceToken": [
+        "0bd3d1cf-a428-47fd-bd0c-f528f4153fc7",
+        "a387c012-080c-46b6-9fbf-2f41efecd422",
+        "d967448c-de17-4a8d-9fa5-428e7956079d",
+        "e7d6566f-f23f-4298-a6a3-fb920a6403f7"
+      ],
+      "dealId": [
+        "",
+        "6938eb14931c10d3ba51f210"
+      ],
+      "merchantUserId": [
+        "6926be196dcebd1ce4cd8cee",
+        "6929a7543a9d9ba73b97b52b",
+        "693165293a9d9ba73b97b631",
+        "6938e429a011eae7d25f6f34"
+      ],
+      "merchantId": [
+        "00011410",
+        "00031747",
+        "00039019",
+        "00049987"
+      ],
+      "customerUserId": [
+        "6938fe079146342d09fe6582",
+        "69394041a011eae7d25f6f8d",
+        "69394512a011eae7d25f6f96",
+        "693c2b55a011eae7d25f7040"
+      ],
+      "customerId": [
+        "00017927",
+        "00034882",
+        "00036114",
+        "00053333"
+      ],
+      "invoiceAmount": [
+        "200.0",
+        "2000.0",
+        "3000.0",
+        "900.0"
+      ],
+      "tipAmount": [
+        "0.0"
+      ],
+      "totalAmount": [
+        "200.0",
+        "2000.0",
+        "3000.0",
+        "900.0"
+      ],
+      "merchantType": [
+        "MERCHANT"
+      ],
+      "walletType": [
+        "NUMONI_WALLET"
+      ],
+      "amountByWallet": [
+        "200.0",
+        "2000.0",
+        "3000.0",
+        "900.0"
+      ],
+      "amountBrandWallet": [
+        "0.0"
+      ],
+      "transferAmount": [
+        "180.0",
+        "1800.0",
+        "2700.0",
+        "810.0"
+      ],
+      "transactionFees": [
+        "20.0",
+        "200.0",
+        "300.0",
+        "90.0"
+      ],
+      "transactionFeesPercentage": [
+        "10.0"
+      ],
+      "quantity": [
+        "1",
+        "2"
+      ],
+      "posId": [
+        "36312842",
+        "46983612",
+        "87993388",
+        "93571530"
+      ],
+      "paymentViaType": [
+        "Merchant",
+        "POS"
+      ]
+    }
+  },
+  "invoice": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "merchant_payment_details": {
+    "total_records": 0,
+    "fields": [],
+    "sample_values": {},
+    "status": "empty"
+  },
+  "order_seqNo": {
+    "total_records": 1,
+    "fields": [
+      "prefix",
+      "seqNo",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "seqNo": [
+        "29046"
+      ],
+      "prefix": [
+        "Order"
+      ]
+    }
+  },
+  "pay_on_us_notifications": {
+    "total_records": 10887,
+    "fields": [
+      "accountNumber",
+      "businessId",
+      "createdAt",
+      "currency",
+      "merchantFee",
+      "merchantReference",
+      "onusReference",
+      "paymentChannel",
+      "paymentStatus",
+      "providerReference",
+      "rawNotification",
+      "senderDetails"
+    ],
+    "sample_values": {
+      "type": [
+        "COLLECTION"
+      ],
+      "currency": [
+        "NGN"
+      ],
+      "transactionAmount": [
+        "38900.0",
+        "5000.0",
+        "6100.0",
+        "9000.0"
+      ],
+      "merchantFee": [
+        "50.0"
+      ],
+      "merchantReference": [
+        "5546",
+        "5548",
+        "5550",
+        "5552"
+      ],
+      "onusReference": [
+        "ONUS-NUB-1391664438372-10012026-105811",
+        "ONUS-NUB-2046796471091-10012026-105516",
+        "ONUS-NUB-2261091213466-10012026-110252",
+        "ONUS-NUB-8441842889667-10012026-105612"
+      ],
+      "providerReference": [
+        "100004260110095630149607564842",
+        "100004260110095704149606552627",
+        "100004260110095845149607327497",
+        "100033260110100344631415294663"
+      ],
+      "sessionId": [
+        "100004260110095630149607564842",
+        "100004260110095704149606552627",
+        "100004260110095845149607327497",
+        "100033260110100344631415294663"
+      ],
+      "accountNumber": [
+        "0709155549",
+        "0737209777",
+        "0791654716",
+        "0797247169"
+      ],
+      "paymentStatus": [
+        "SUCCESSFUL"
+      ],
+      "paymentChannel": [
+        "BANK_TRANSFER"
+      ],
+      "businessId": [
+        "8a86b73d-4cc9-42d6-ba8a-7c099335d62d"
+      ],
+      "rawNotification": [
+        "{\"id\":\"08e8e775-3989-4626-801b-df129c833858\",\"type",
+        "{\"id\":\"4eb74c04-c51b-466f-b32c-78efbb7c234d\",\"type",
+        "{\"id\":\"5d8c7818-a586-448b-a732-ea9db3d8ff9c\",\"type",
+        "{\"id\":\"9bea9324-e860-40a8-80f7-38107ea20875\",\"type"
+      ]
+    }
+  },
+  "payment_otp_verification": {
+    "total_records": 289,
+    "fields": [
+      "createdDt",
+      "expiryTime",
+      "initiativeRefId",
+      "otp",
+      "phoneNumber",
+      "status",
+      "token",
+      "type",
+      "updatedDt"
+    ],
+    "sample_values": {
+      "otp": [
+        "RDBhWHF1MW81OTgxMTJEMGFYcXUxbw==",
+        "Z2g0TkNMNm41MTU5ODVnaDROQ0w2bg==",
+        "aFJNclJYYlM0MzE3MTloUk1yUlhiUw==",
+        "dWp0anVPcFc5ODM1MTR1anRqdU9wVw=="
+      ],
+      "phoneNumber": [
+        "8038539171",
+        "8062001100",
+        "8062551247",
+        "9052138575"
+      ],
+      "expiryTime": [
+        "1765343133607",
+        "1765343552370",
+        "1765343896649",
+        "1765344060697"
+      ],
+      "token": [
+        "0bd3d1cf-a428-47fd-bd0c-f528f4153fc7#6938fe0791463",
+        "9f8547c9-c7ff-42fb-9ed1-038efca23914#6938fe0791463",
+        "a387c012-080c-46b6-9fbf-2f41efecd422#6938fe0791463",
+        "e7d6566f-f23f-4298-a6a3-fb920a6403f7#6938fe0791463"
+      ],
+      "status": [
+        "OTP_GENERATED",
+        "OTP_VERIFIED"
+      ],
+      "type": [
+        "PURCHASE",
+        "SHARE_MONEY"
+      ],
+      "initiativeRefId": [
+        "6939021083c441433c7ff801",
+        "6939025b83c441433c7ff808",
+        "6939053283c441433c7ff80f",
+        "6939096eacb1d197f3ee8f4b"
+      ]
+    }
+  },
+  "shedLock": {
+    "total_records": 1,
+    "fields": [
+      "lockUntil",
+      "lockedAt",
+      "lockedBy"
+    ],
+    "sample_values": {
+      "lockedBy": [
+        "ip-10-0-22-147.eu-west-1.compute.internal"
+      ]
+    }
+  },
+  "sponsored_deals": {
+    "total_records": 4,
+    "fields": [
+      "backgroundImage",
+      "createdAt",
+      "dealId",
+      "description",
+      "heading",
+      "isActive",
+      "updatedAt"
+    ],
+    "sample_values": {
+      "heading": [
+        ".",
+        "Test Sponsored deal",
+        "nuMoni Point"
+      ],
+      "description": [
+        ".",
+        "Test sponsored deals details"
+      ],
+      "dealId": [
+        "",
+        "6938eb14931c10d3ba51f210"
+      ],
+      "backgroundImage": [
+        "dealImage/1765343419003_1eebafe6.jpg",
+        "dealImage/1765361441024_5401a167.png",
+        "dealImage/1765704475657_b3f601a5.png",
+        "dealImage/1765704515307_c8e50971.png"
+      ],
+      "isActive": [
+        "False",
+        "True"
+      ]
+    }
+  },
+  "tokens": {
+    "total_records": 1,
+    "fields": [
+      "createdAt",
+      "expiresBefore",
+      "token",
+      "tokenType",
+      "updatedAt"
+    ],
+    "sample_values": {
+      "tokenType": [
+        "PAYONUS_ACCESS_TOKEN"
+      ],
+      "token": [
+        "eyJraWQiOiIxMGM5NDVmZC0zM2EwLTRhNjMtOTFiNC0wMjIyOT"
+      ]
+    }
+  },
+  "top_up_status": {
+    "total_records": 8102,
+    "fields": [
+      "createdDt",
+      "numoni_ref_id",
+      "onusReferenceId",
+      "status"
+    ],
+    "sample_values": {
+      "onusReferenceId": [
+        "ONUS-NUB-5122801094099-11012026-142505",
+        "ONUS-NUB-7981592024857-11012026-142403",
+        "ONUS-NUB-8127403140433-11012026-142201",
+        "ONUS-NUB-9233534978754-11012026-142039"
+      ],
+      "numoni_ref_id": [
+        "6963a3ae85b653f519f28d8c",
+        "6963a40185b653f519f28d99",
+        "6963a474a462142e6be886a7",
+        "6963a4b197911f00fd287f5d"
+      ],
+      "status": [
+        "SUCCESSFUL"
+      ]
+    }
+  },
+  "transaction_history": {
+    "total_records": 35372,
+    "fields": [
+      "balanceAfter",
+      "balanceBefore",
+      "branchName",
+      "createdDate",
+      "customerId",
+      "customerUserId",
+      "dealId",
+      "dealName",
+      "dealUnits",
+      "merchantId",
+      "merchantLogo",
+      "merchantName"
+    ],
+    "sample_values": {
+      "customerId": [
+        "00011037",
+        "00017927",
+        "00020468",
+        "00070944"
+      ],
+      "customerUserId": [
+        "69387ba0ec24051363acd3b3",
+        "6938e31c9146342d09fe6550",
+        "6938fe079146342d09fe6582",
+        "693907f49146342d09fe6592"
+      ],
+      "sourceTransactionId": [
+        "6938e323acb1d197f3ee8f36",
+        "6938fc1d83c441433c7ff7ee",
+        "6938fc1d83c441433c7ff7ef",
+        "6938fe08acb1d197f3ee8f3a"
+      ],
+      "transactionReferenceId": [
+        "5a4e4893-3c0c-4c62-b9c9-4b4af20e5559",
+        "766096db-a3a7-4927-867e-9163cdcd2e0e",
+        "bb217f82-78e8-48d5-b188-ac5f90cc20a0",
+        "d82599db-ea88-4246-ae54-e40307fff6b9"
+      ],
+      "transactionName": [
+        "Deal Purchase",
+        "Points purchase",
+        "Signup Bonus",
+        "Top-up Reward"
+      ],
+      "transactionCategory": [
+        "BONUS",
+        "POINTS_PURCHASE",
+        "PURCHASE",
+        "SIGN_UP_BONUS"
+      ],
+      "walletType": [
+        "NUMONI_WALLET"
+      ],
+      "title": [
+        "Points purchase by AYANTOLA, TESLIM",
+        "Points purchase by TESLIM AYANTOLA",
+        "Signup Reward received from nuMoni",
+        "Top-up Reward received from nuMoni"
+      ],
+      "totalAmountPaid": [
+        "1000.0",
+        "250.0",
+        "3000.0",
+        "50.0"
+      ],
+      "balanceBefore": [
+        "0.0",
+        "1000.0",
+        "3000.0",
+        "8000.0"
+      ],
+      "balanceAfter": [
+        "1000.0",
+        "1050.0",
+        "3000.0",
+        "8250.0"
+      ],
+      "transactionType": [
+        "CREDIT",
+        "DEBIT"
+      ],
+      "senderName": [
+        "AYANTOLA, TESLIM",
+        "NUMONI",
+        "TESLIM AYANTOLA",
+        "Teslim Ayantola"
+      ],
+      "senderId": [
+        "00017927",
+        "2016926929",
+        "5466258542",
+        "SYSTEM"
+      ],
+      "senderType": [
+        "BANK",
+        "NUMONI"
+      ],
+      "receiverName": [
+        "8033299622",
+        "8062001100",
+        "8086004120",
+        "Teslim Ayantola"
+      ],
+      "receiverId": [
+        "00011037",
+        "00017927",
+        "00049987",
+        "00070944"
+      ],
+      "receiverType": [
+        "CUSTOMER",
+        "MERCHANT"
+      ],
+      "status": [
+        "SUCCESSFUL"
+      ],
+      "senderAccountId": [
+        "2016926929",
+        "5466258542",
+        "6938fe079146342d09fe6582",
+        "693907f49146342d09fe6592"
+      ],
+      "senderBankNumber": [
+        "2016926929",
+        "5466258542",
+        "8060150234",
+        "9045960536"
+      ],
+      "senderBankName": [
+        "Kuda Microfinance Bank",
+        "MoniePoint Microfinance Bank",
+        "Palmpay",
+        "etz"
+      ],
+      "numoniPoints": [
+        "200.0",
+        "2000.0",
+        "3000.0",
+        "900.0"
+      ],
+      "pointsRedeemed": [
+        "0.0"
+      ],
+      "pointsReceived": [
+        "0.0"
+      ],
+      "merchantName": [
+        "Chicken Republic",
+        "TES BEAUTY STORE",
+        "TES FASHION HUB",
+        "Tes Stores"
+      ],
+      "merchantId": [
+        "00011410",
+        "00031747",
+        "00049987",
+        "26511368"
+      ],
+      "merchantLogo": [
+        "https://numoni-prod-uploads.s3.eu-west-1.amazonaws"
+      ],
+      "branchName": [
+        "Main Branch"
+      ],
+      "dealId": [
+        "",
+        "6938eb14931c10d3ba51f210"
+      ],
+      "receiverAccountId": [
+        "6938e31c9146342d09fe6550",
+        "693907f49146342d09fe6592",
+        "69394512a011eae7d25f6f96",
+        "693946a79146342d09fe65cb"
+      ],
+      "dealUnits": [
+        "1"
+      ],
+      "dealName": [
+        "TEST-DEAL"
+      ],
+      "paymentViaType": [
+        "BANK",
+        "POS"
+      ],
+      "posId": [
+        "03575467",
+        "33979703",
+        "65180588",
+        "87993388"
+      ],
+      "posName": [
+        "POS-015",
+        "POS-022",
+        "POS-025",
+        "POS-039"
+      ]
+    }
+  },
+  "transaction_session": {
+    "total_records": 10124,
+    "fields": [
+      "createdDt",
+      "initiativeRefId",
+      "invoiceNo",
+      "sessionId",
+      "transactionId",
+      "type",
+      "updatedDt",
+      "verificationId"
+    ],
+    "sample_values": {
+      "initiativeRefId": [
+        "6938fe7183c441433c7ff7f2",
+        "69390013acb1d197f3ee8f3f",
+        "6939016c83c441433c7ff7fc",
+        "6939021083c441433c7ff801"
+      ],
+      "verificationId": [
+        "6938fe71acb1d197f3ee8f3c",
+        "69390014acb1d197f3ee8f40",
+        "6939016c83c441433c7ff7fd",
+        "6939021083c441433c7ff802"
+      ],
+      "invoiceNo": [
+        "1efbe091-d936-402e-933a-eca31922e08e",
+        "326574fd-4db4-4baa-b3a5-2a1d138e2548",
+        "c36943e9-e85e-48e5-a5ec-a8d20502698e",
+        "d0eb6fd6-918a-499a-a2a6-7ad80191d5e3"
+      ],
+      "transactionId": [
+        "2866a6d4-9f11-4149-b86e-77ba33f845ae",
+        "581ffde4-79db-4dfe-b60e-2c46c2a52b54",
+        "670c5be8-832e-4763-99ef-a75f5148464d",
+        "a3de5638-f698-425b-bf20-711e826fc379"
+      ],
+      "type": [
+        "PURCHASE",
+        "SHARE_MONEY"
+      ],
+      "sessionId": [
+        "7cf9669d-7be4-4849-8a12-ee2de202a063",
+        "b0a229fe-60de-4853-803c-0e59e6b036e1",
+        "bab21ca5-1d7f-4db1-b781-7ecdd9b29913",
+        "dd641d7a-09bb-420d-a03e-2ac750e99d1a"
+      ]
+    }
+  },
+  "wallet": {
+    "total_records": 8660,
+    "fields": [
+      "amount",
+      "amountOnHold",
+      "createdDt",
+      "updatedDt",
+      "version"
+    ],
+    "sample_values": {
+      "amount": [
+        "125.0",
+        "150.0",
+        "23435.0",
+        "5.0"
+      ],
+      "amountOnHold": [
+        "0.0",
+        "3000.0",
+        "3050.0",
+        "4050.0"
+      ],
+      "version": [
+        "3",
+        "5",
+        "7",
+        "8"
+      ]
+    }
+  },
+  "wallet_adjust_management": {
+    "total_records": 243,
+    "fields": [
+      "actualAmount",
+      "adjustAfter",
+      "adjustBefore",
+      "adjustDate",
+      "customerId",
+      "reason",
+      "transactionAmount",
+      "transactionId",
+      "transactionNo",
+      "type",
+      "userId",
+      "walletId"
+    ],
+    "sample_values": {
+      "walletId": [
+        "00050756",
+        "00057623",
+        "00059506",
+        "00064542"
+      ],
+      "userId": [
+        "69270944df1626dafeda05be",
+        "693b059e9146342d09fe6639",
+        "693c3c179146342d09fe6683",
+        "6967ed32096e53ffb5a58b04"
+      ],
+      "customerId": [
+        "00050756",
+        "00057623",
+        "00059506",
+        "00064542"
+      ],
+      "actualAmount": [
+        "-1000.0",
+        "-250.0",
+        "-50.0",
+        "-5000.0"
+      ],
+      "adjustBefore": [
+        "3902.5",
+        "450.0",
+        "4902.5",
+        "5450.0"
+      ],
+      "adjustAfter": [
+        "200.0",
+        "3852.5",
+        "3902.5",
+        "450.0"
+      ],
+      "transactionAmount": [
+        "1000.0",
+        "250.0",
+        "50.0",
+        "5000.0"
+      ],
+      "type": [
+        "D"
+      ],
+      "transactionNo": [
+        "133c1619-6037-4dee-b53a-f1f96edcc71c",
+        "590237db-5bc2-4f38-a9f2-67742e3decf9",
+        "7d9f1c45-fd1b-400e-9068-7dae131aabf6",
+        "bcfbb427-aacf-4c9c-b7b0-1bd0ede4538a"
+      ],
+      "transactionId": [
+        "185a4f01-081e-4b9e-87e7-03d061ab2e58",
+        "452f3b83-3d0f-407e-8335-adafe13b6d6b",
+        "8c591a53-7702-47b5-b866-b4162540a2e1",
+        "945bcfe4-3f5f-4ac4-a194-3b3042161120"
+      ],
+      "reason": [
+        "RVSL/BONUS/a39f40d9-93ff-4bae-aecf-896fec666950/20",
+        "RVSL/BONUS/bbec8b63-3f1a-4385-8ca3-f921c1491a17/20",
+        "RVSL/LOAD_POINTS/5d546644-b6a9-4f54-b3b1-050678252",
+        "RVSL/LOAD_POINTS/d4aff806-858a-4dbf-85dc-456a7e35b"
+      ]
+    }
+  }
+}
